@@ -971,7 +971,7 @@ export default function App() {
           className={`${page.visible_section} relative bg-cover bg-no-repeat  align-left justify-start bg-fixed md:ml-72 md:flex-1`}
           style={{ backgroundImage: `url('https://i.pinimg.com/736x/8e/84/a6/8e84a626d7abc52677230b1fb45bb203.jpg')` }}
         >
-          <div className={`${isHome.display} pt-10 p-4 min-h-screen`}>
+          <div className={`${isHome.display} p-4 pt-8 min-h-screen`}>
             <h1 className="text-7xl w-full max-w-ful font-bold bg-gradient-to-r from-cyan-800 via-emerald-600 to-lime-600 inline-block text-transparent bg-clip-text pb-4 pt-2 perso_font">
               LER E CANTAR 2024
             </h1>
@@ -1013,7 +1013,7 @@ export default function App() {
 
             </div>
 
-            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200   rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80 text-left">
+            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200 mb-18  rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80 text-left">
               <h4 className="text-lg font-bold">
                 O Ler e Cantar é uma produção colaborativa entre alunos e professores dividida em diversos setores, com diferentes tarefas, sendo todas em prol da realização do evento 🎨
               </h4>

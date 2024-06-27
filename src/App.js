@@ -971,7 +971,7 @@ export default function App() {
           className={`${page.visible_section} relative bg-cover bg-no-repeat  align-left justify-start bg-fixed md:ml-72 md:flex-1`}
           style={{ backgroundImage: `url('https://i.pinimg.com/736x/8e/84/a6/8e84a626d7abc52677230b1fb45bb203.jpg')` }}
         >
-          <div className={`${isHome.display} pt-10 p-4 pb-20 min-h-screen`}>
+          <div className={`${isHome.display} pt-10 p-4 min-h-screen`}>
             <h1 className="text-7xl w-full max-w-ful font-bold bg-gradient-to-r from-cyan-800 via-emerald-600 to-lime-600 inline-block text-transparent bg-clip-text pb-4 pt-2 perso_font">
               LER E CANTAR 2024
             </h1>
@@ -979,7 +979,7 @@ export default function App() {
               Diversidade cultural no Brasil 🎭
             </h2>
 
-            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200  rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
+            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200  mb-20 rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
               <h4 className="text-lg">
                 Seja bem-vindo ao Ler e Cantar 2024, neste ano, estaremos dando espaço as diferentes culturas e realidades que possuímos em nosso país, isso por meio de diversas obras que nós da Etec Joaquim Ferreira do Amaral preparamos para vocês nessa noite.
               </h4>

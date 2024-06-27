@@ -525,7 +525,7 @@ export default function App() {
     },
     {
       id: 32,
-      title: "Sem título",
+      title: "E agora, aparecido?",
       author: "Evelyn",
       description:
         "<p class='text-xl'>aparecido é brasileiro<br>" +

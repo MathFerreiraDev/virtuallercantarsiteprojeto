@@ -157,9 +157,39 @@ export default function App() {
   const dataListEntrevistas = [
     {
       id: 1,
-      src: "5udaKLnuFy4?si=0Nlpijz53ood6-th",
-      title: "Entrevista de exemplo",
-      description: "Lorem ipsum sit amet quote li utoc efic nortu",
+      src: "6q3gH62swg8?si=D3XWjQynZj-H8nFY",
+      title: "Entrevista - aluna Ana Laura",
+      description: "A entrevista conta com perguntas e respostas, com a aluna convidada Ana Laura do 3° ETIM Administração que conta um pouco sobre as atividades da equipe de Jornal do Ler e Cantar.",
+    },
+    {
+      id: 2,
+      src: "NLA4lnlzvt4?si=XO46K7FaK7GTLe-4",
+      title: "Entrevista - aluno Bruno",
+      description: "A entrevista conta com perguntas e respostas, com os aluno convidado Bruno do 2° ETIM Mecatrônica, o qual está participando da criação do cenário, que será usado durante peças do evento.",
+    },
+    {
+      id: 3,
+      src: "2NoOdSZ2hQ4?si=wu2yRHyHYrzeZmRp",
+      title: "Entrevista - professora Joice",
+      description: "A entrevista conta com perguntas e respostas feitas a professora Joice, professora de Inglês de nossa escola, a mesma atua no projeto 'Temperos do Brasil' o qual estará sendo exposto em nosso evento.",
+    },
+    {
+      id: 4, 
+      src: "uMTWNKUExoM?si=OEcSAiddd4e9YKHY",
+      title: "Entrevista- alunos Kelvin e Laís",
+      description: "A entrevista conta com perguntas e respostas, com os alunos convidados Kelvin e Laís do 2° ETIM Mecatrônica, os quais estão participando do roteiro das peças do evento, e contam um pouco mais sobre o que estão achando do projeto.",
+    },
+  {
+      id: 5,
+      src: "-4XkMRW8REM?si=ZrmT6ncPinGdI8m7", 
+      title: "Entrevista - aluno Murilo",
+      description: "A entrevista conta com perguntas e respostas, com o aluno convidado Murilo Fernandes do 2° ETIM Mecatrônica que está participando no projeto de poesias de nosso nosso evento.",
+    },
+  {
+      id: 6, 
+      src: "iP5sY4L0fa8?si=Zm4K4EZ5ii0_QbnV",
+      title: "Entrevista - aluno João Volpi",
+      description: "A entrevista conta com perguntas e respostas ao aluno João Volpi do 3° ETIM Mecatrônica, o mesmo está na atuação do Teatro de nosso evento.",
     },
     
   ];

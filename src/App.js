@@ -134,14 +134,14 @@ export default function App() {
     {
       id: 15,
       title: "<b>[21:09-21:13]</b> DANÇA - ENCERRAMENTO DAS APRESENTAÇÕES I",
-      description: "Uma coreografia ao corpo de <b>'Amarelo e Azul e Branco!'</b>",
+      description: "<p>Uma coreografia ao corpo de <b>'Amarelo e Azul e Branco!'</b></p>",
       svgPath: "./dance.svg",
       borderColor: "rose-600",
     },
     {
     id: 16,
       title: "<b>[21:26-21:29]</b> DANÇA - ENCERRAMENTO DAS APRESENTAÇÕES II",
-      description: "Uma coreografia ao corpo de <b>'Você Chegou!'</b>",
+      description: "<p>Uma coreografia ao corpo de <b>'Você Chegou!'</b></p>",
       svgPath: "./dance.svg",
       borderColor: "rose-600",
     },

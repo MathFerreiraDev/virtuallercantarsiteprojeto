@@ -158,15 +158,10 @@ export default function App() {
     {
       id: 1,
       src: "5udaKLnuFy4?si=0Nlpijz53ood6-th",
-      title: "Entrevista #1",
+      title: "Entrevista de exemplo",
       description: "Lorem ipsum sit amet quote li utoc efic nortu",
     },
-    {
-      id: 2,
-      src: "09839DpTctU?si=qfqOKZwBoZIOjTWA",
-      title: "Entrevista #2",
-      description: "Coloquei Hotel California pq n tem nenhum vídeo aqui :(",
-    },
+    
   ];
   const dataListProducoes = [
     {

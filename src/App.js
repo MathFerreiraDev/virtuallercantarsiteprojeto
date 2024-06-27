@@ -680,7 +680,7 @@ export default function App() {
     },
     {
       id: 46,
-      title: "Sem título",
+      title: "Bruno",
       author: "Bruno",
       description:
         "<p class='text-xl'> em nossa cultura <br/> essa luta é minha e sua <br/> mesmo que nao seja mutua <br/> veras que um filho teu nao foge a luta </p> <p class='text-xl'> esqueceram do hip hop <br/> na timeline do tiktok <br/> demonizam essa parte <br/> apenas falando de porte </p> <p class='text-xl'> onde só falam da morte <br/> esqueceram a cultura <br/> pois na zona norte <br/> temos estrutura </p> <p class='text-xl'> hoje só quero sentir o vento de sp <br/> selva de concreto e pessoas a mercê <br/> quero sonhar o que vivi <br/> às vezes sonhando muito mais do que podemos ter </p> <p class='text-xl'> ignorados pelo estado <br/> mas favela e cultura andam lado a lado <br/> imitaram tanto os gringos <br/> temos o nosso brooklyn em São Paulo </p> <p class='text-xl'> temos o rap e o hiphop <br/> ensinam mais que o cantor de pop <br/> no skate e o grafite só pra mídia ver <br/> união e cultura ainda existem em SP </p>",

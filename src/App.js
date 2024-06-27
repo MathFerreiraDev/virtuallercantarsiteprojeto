@@ -384,7 +384,7 @@ export default function App() {
     },
     {
       id: 19,
-      title: "Sem título",
+      title: "Mar da ignorância",
       author: "Felipe Gregório e Ives Gomes",
       description:
         "<p class='text-xl'> Escolhi tu, Brasil, dentre todas nações <br> Terra das grandes culturas ramificadas <br> Ao longo do tempo inúmeras decepções <br> O fluxo contínuo de mentes embarcadas </p>" +

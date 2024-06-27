@@ -979,7 +979,7 @@ export default function App() {
               Diversidade cultural no Brasil 🎭
             </h2>
 
-            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200  mb-20 rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
+            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200 rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
               <h4 className="text-lg">
                 Seja bem-vindo ao Ler e Cantar 2024, neste ano, estaremos dando espaço as diferentes culturas e realidades que possuímos em nosso país, isso por meio de diversas obras que nós da Etec Joaquim Ferreira do Amaral preparamos para vocês nessa noite.
               </h4>
@@ -1005,7 +1005,7 @@ export default function App() {
               
             </div>
 
-            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200  rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
+            <div className="w-full max-w-ful mt-4 pb-20 p-4 bg-gray-200  rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80">
               <h4 className="text-lg font-bold">
                 Confira aqui um exemplo da produção do Ler e Cantar, por enquanto você verá o nosso making off de 2023, mas logo logo poderá ver nosso edital de 2024 🤩
               </h4>

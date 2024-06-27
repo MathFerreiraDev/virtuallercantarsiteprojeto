@@ -969,7 +969,7 @@ export default function App() {
       {iframeVisible && (
         <section
           className={`${page.visible_section} relative bg-cover bg-no-repeat  align-left justify-start bg-fixed md:ml-72 md:flex-1`}
-          style={{ backgroundImage: `url(./background.png)` }}
+          style={{ backgroundImage: `url('https://i.pinimg.com/736x/8e/84/a6/8e84a626d7abc52677230b1fb45bb203.jpg')` }}
         >
           <div className={`${isHome.display} pt-10 p-4 pb-20 min-h-screen`}>
             <h1 className="text-7xl w-full max-w-ful font-bold bg-gradient-to-r from-cyan-800 via-emerald-600 to-lime-600 inline-block text-transparent bg-clip-text pb-4 pt-2 perso_font">

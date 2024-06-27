@@ -254,7 +254,7 @@ export default function App() {
     },
     {
       id: 4,
-      title: "Sem título",
+      title: "Passárgada",
       author: "Thaís e Miguel",
       description:
         "<p class='text-xl'> Nas terras vastas do Brasil se entrelaçam <br/> Cores, sons e danças que nos abraçam <br/> Da Amazônia ao Sul, um mosaico de beleza <br/> Onde a cultura floresce em pura grandeza </p> <p class='text-xl'> Nas festas populares ao brilho do carnaval <br/> Um mar de alegria, um festim sem igual </p> <p class='text-xl'> A diversidade que nos une e nos inspira <br/> O Brasil resplandece em cada linda lira </p> <p class='text-xl'> Pelas suas adversidades releva <br/> Sabores, cheiros, histórias que encantam a tela <br/> Na arte, na literatura, na poesia a ecoar <br/> O Brasil se mostra um local singular <br/> Que traz desde Iracema um lugar peculiar </p> <p class='text-xl'> E nelas há palmeiras onde canta o sabiá <br/> Vistas lindas é bom ressaltar </p> <p class='text-xl'> Entre matas e cidades nasce a identidade <br/> De um povo que celebra sua vasta variedade </p> <p class='text-xl'> Comércio brasileiro é o que mais enriquece <br/> A natureza é nossa maior riqueza </p> <p class='text-xl'> Mas e o valor que damos perante a ela? <br/> Onde está nossa referência? <br/> É apenas coincidência! <br/> Meu Deus, onde está nossa Passárgada? </p> <p class='text-xl'> Vou-me embora para Passárgada <br/> O que será que vou encontrar? <br/> Será que vou encontrar o Brasil ou outro lugar? </p>",
@@ -394,7 +394,7 @@ export default function App() {
     },
     {
       id: 20,
-      title: "Festa de junho",
+      title: "Festa de Junho",
       author: "Helder",
       description:
         "<p class='text-xl'> Festa junina <br> Uma festa demais <br> Pessoas alegres <br> Isto é diversão, rapaz </p>" +
@@ -408,7 +408,7 @@ export default function App() {
     },
     {
       id: 21,
-      title: "Sem título",
+      title: "Desencantos do Brasil",
       author: "Mariana",
       description:
         "<p class='text-xl'> Nas águas do Amazonas, o sol se põe em festas, <br> O batuque ecoa, a floresta se agita <br> Parintins se colore de azul e vermelho <br> Boi Caprichoso e Garantido em desafio </p>" +
@@ -576,7 +576,7 @@ export default function App() {
     },
     {
       id: 34,
-      title: "Sem título",
+      title: "Sinfonias do Brasil",
       author: "Maria Vitória, Marieli e Caroline Campos",
       description:
         "<p class='text-xl'>Toda diversidade dentro de um som<br>" +

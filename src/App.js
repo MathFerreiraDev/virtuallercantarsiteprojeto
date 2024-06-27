@@ -1013,7 +1013,7 @@ export default function App() {
 
             </div>
 
-            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200 rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80 text-left">
+            <div className="w-full max-w-ful mt-4 p-4 bg-gray-200 rounded-xl gap-4 flex flex-col font-medium text-slate-800 bg-opacity-80 text-left mb-16">
               <h4 className="text-lg font-bold">
                 O Ler e Cantar é uma produção colaborativa entre alunos e professores dividida em diversos setores, com diferentes tarefas, sendo todas em prol da realização do evento 🎨
               </h4>

@@ -85,7 +85,7 @@ export default function App() {
     {
       id: 8,
       title: "<b>[20:03-20:06]</b> MOCHILEIROS - REGIÃO CENTRO-OESTE",
-      description: "<p><b>Ato III:</b>O vivido senhor, agora conta um pouco sobre sua recaída, e como chegou na <b>Região Centro-Oeste</b>, onde foi até um bar para afogar suas mágoas, e que acaba por desabafar com o atendente do estabelecimento, Miguel</p>",
+      description: "<p><b>Ato III:</b> O vivido senhor, agora conta um pouco sobre sua recaída, e como chegou na <b>Região Centro-Oeste</b>, onde foi até um bar para afogar suas mágoas, e que acaba por desabafar com o atendente do estabelecimento, Miguel</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },

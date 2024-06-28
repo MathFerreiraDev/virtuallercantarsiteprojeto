@@ -247,7 +247,7 @@ export default function App() {
     },
     {
       id: 3,
-      title: "Sem título",
+      title: "Cores do Brasil",
       author: "Vinícius e Cauã",
       description:
         "<p class='text-xl'> Nosso país <br/> Com nossos campos <br/> E nossas mais lindas flores <br/> Com nosso céu de azul anil </p> <p class='text-xl'> Com o verde da nossa bandeira <br/> E o dourado das nossas estrelas <br/> Com as nossas mais diversas cores <br/> Fazendo uma linda aquarela </p> <p class='text-xl'> Esse é o nosso país <br/> Com a mais bela paleta <br/> Dentre todas as bandeiras </p>",

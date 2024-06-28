@@ -224,6 +224,30 @@ export default function App() {
       title: "A identidade do Brasil",
       description: "Vídeo descrevendo os diferentes estados existentes em nosso país, e como eles constroem a nossa cultura e realidade.",
     },
+    {
+      id: 6,
+      src: "u6tYVWEhQBY?si=3bdb7tv7XCHSjOSH",
+      title: "As belezas do Sul!",
+      description: "O vídeo destaca vários aspectos da fauna, flora, paisagens e gastronomia da Região Sul, e como possui elementos únicos em seu território.",
+    },
+    {
+      id: 7,
+      src: "zbYf1xEIY1k?si=zEBg5nO2TgQNehGy",
+      title: "Ó grande Região Norte!",
+      description: "O vídeo destaca aspectos da cultura de estados concentrados na porção Norte do país, e como ela possui suas próprias influências e histórias.",
+    },
+    {
+      id: 8,
+      src: "CxeahS7teSI?si=wEe4kl4nyJqJQ62i",
+      title: "As festas brasileiras",
+      description: "O vídeo registra algumas das festas típicas de nosso país, e quais suas histórias que as encaixaram em nossa cultura.",
+    },
+    {
+      id: 9,
+      src: "GfHtzmo689Y?si=EI-9ELvVg2I70XXl",
+      title: "O nosso Nordeste!",
+      description: "Um vídeo ressaltando e relevando características e histórias presentes na cultura nordestina.",
+    },
   ];
   const dataListPoemas = [
     {

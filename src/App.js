@@ -214,39 +214,57 @@ export default function App() {
     },
     {
       id: 4,
+      src: "ULwF_yx6Mjg?si=V6kdkoqlgOMykn-_",
+      title: "Precioso Centro-Oeste",
+      description: "O curta mostra pontos que circulam a porção Centro-Oeste do país, exibindo belas paisagens, estruturas e pratos típicos, que são famosos na região.",
+    },
+    {
+      id: 5,
       src: "zbYf1xEIY1k?si=zEBg5nO2TgQNehGy",
       title: "Ó grande Região Norte!",
       description: "O vídeo destaca aspectos da cultura de estados concentrados na porção Norte do país, e como ela possui suas próprias influências e histórias.",
     },
     {
-      id: 5,
+      id: 6,
       src: "GfHtzmo689Y?si=EI-9ELvVg2I70XXl",
       title: "O nosso Nordeste!",
       description: "Um vídeo ressaltando e relevando características e histórias presentes na cultura nordestina.",
     },
     {
-      id: 6,
+      id: 7,
       src: "Lw4gX1zA7NU?si=4fd-tgNXe-B3gK2M",
       title: "Origem do MPB brasileiro",
       description: "Vídeo documentário que descreve a trajetória do estilo musical MPB e como sua história se desenvolveu em nosso país.",
     },
     {
-      id: 7,
+      id: 8,
       src: "py8JHVRWGXw?si=f5vIC0VB9STF2zwy",
       title: "O país do futebol!",
       description: "O vídeo ressalta as conquistas e marcos feitos pela nossa seleção, e como o futebol se estabeleceu e se fixou a cultura e identidade nacional.",
     },
     {
-      id: 8,
+      id: 9,
       src: "0ZkaG9R76u4?si=N-lZdZR-ivhdoNbS",
       title: "Cultura do folclore brasileiro",
       description: "Vídeo narrando as características das lendas existentes, que se perpetuaram por todo o território do nosso país.",
     },
     {
-      id: 9,
-      src: "CxeahS7teSI?si=wEe4kl4nyJqJQ62i",
+      id: 10,
+      src: "MOcu65cwJb0?si=jW_6w60Qlvbng4HD",
+      title: "Cultura brasileira no Amazonas",
+      description: "O vídeo cita aspectos e curiosidades acerca dos costumes enraizados na comunidade que vive na porção amazônica.",
+    },
+    {
+      id: 11,
+      src: "CxeahS7teSI?si=wEe4kl4nyJqJQ62i", 
       title: "As festas brasileiras",
       description: "O vídeo registra algumas das festas típicas de nosso país, e quais suas histórias que as encaixaram em nossa cultura.",
+    },
+    {
+      id: 12,
+      src: "7o_azM-pk4M?si=ttqoCK6kRmWff0oE", 
+      title: "Tour pelas macrorregiões!",
+      description: "Acompanhe um tour feito por cada macrorregião do Brasil, mostrando eventos, paisagens, estruturas, e culinária que caracterizam a cultura predominante na área.",
     },
   ];
   const dataListPoemas = [

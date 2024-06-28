@@ -688,7 +688,7 @@ export default function App() {
     {
       id: 47,
       title: "Amado Centro-oeste",
-      author: "Autor desconhecido",
+      author: "Gabrielly Lima",
       description:
         "<p class='text-xl'> Centro-Oeste, terra rica, cheia de encantos mil, <br/> No coração do nosso amado Brasil. <br/> Teu cerrado vasto, de beleza singular, <br/> Abriga vidas, histórias, em cada lugar. </p> <p class='text-xl'> Brasília, capital de formas audazes, <br/> Símbolo de futuro, sonhos e bases. <br/> Goiás, com sua música, cultura e saber, <br/> E o povo hospitaleiro, que sabe acolher. </p> <p class='text-xl'> Mato Grosso, gigante, de terras sem fim, <br/> Onde o Pantanal se estende, sublime jardim. <br/> Mato Grosso do Sul, de paisagens encantadas, <br/> Com suas águas cristalinas e serras elevadas. </p> <p class='text-xl'> Rios que correm, levando vida e canção, <br/> Natureza exuberante, fonte de inspiração. <br/> Chapadas que se erguem, testemunhas do tempo, <br/> Guardam segredos antigos, histórias ao vento. </p> <p class='text-xl'> Terra de bravos, de gente que faz, <br/> Centro-Oeste querido, tu és muito mais. <br/> És o celeiro do país, a força que alimenta, <br/> Orgulho de um povo, que em ti se sustenta. </p> <p class='text-xl'> Centro-Oeste amado, de riqueza e tradição, <br/> Teu valor é imenso, bate forte o coração. <br/> No teu solo fértil, o futuro se planta, <br/> E em cada canto, tua essência encanta. </p>",
     },

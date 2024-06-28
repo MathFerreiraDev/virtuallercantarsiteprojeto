@@ -57,7 +57,7 @@ export default function App() {
     {
       id: 4,
       title: "<b>[19:33-19:36]</b> MOCHILEIROS - REGIÃO SUL",
-      description: "<p><b>Ato I:</b> Sam e Josh , dois turistas, acabam de chegar na pria de Recife, e acabam dialogando com José, um velho senhor que narra suas aventuras pelas regiões do Brasil, e contando um pouquinho de suas aventuras na região Sul...</p>",
+      description: "<p><b>Ato I:</b> Sam, Josh, Clarie e Luke, quatro turistas, acabam de chegar na pria de Recife, e acabam dialogando com José, um velho senhor que narra suas aventuras pelas regiões do Brasil, e contando um pouquinho de suas aventuras na <b>Região Sul</b>...</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -71,7 +71,7 @@ export default function App() {
     {
       id: 6,
       title: "<b>[19:48-19:51]</b> MOCHILEIROS - REGIÃO SUDESTE",
-      description: "<p><b>Ato II:</b> Bla bla bla era assim assim assado.</p>",
+      description: "<p><b>Ato II:</b>Os novos turistas ficam passando a cuia de mão em mão, até que Luke avista uma juliete na barraca do senhor, e logo pergunta o que é. Isso já abre espaço para mais uma das aventuras de José, agora na <b>Região Sudeste</b>!</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },

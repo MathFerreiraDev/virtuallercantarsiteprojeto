@@ -227,30 +227,21 @@ export default function App() {
   ];
   const dataListPoemas = [
     {
-      id: 1,
-      title: "Ó, meu país",
-      author: "Caio, Maria Clara, Maria Laura e Rayca Souza",
+      id: 8,
+      title: "Encantos do Brasil",
+      author: "Guilherme Generiko, Matheus Inácio e Victor Hugo",
       description:
-        "<p class='text-xl'>Meu país tropical <br>De vegetação vasta e natural <br>Beleza fora do normal</p>" +
-        "<p class='text-xl'>Ó, meu país, <br>Que tanto me diz <br>Expressa tuas cores <br>E todos os seus valores</p>" +
-        "<p class='text-xl'>Me mostra tua cultura <br>De tantas bravuras <br>És tu, Brasil, <br>Terra adorada <br>Em tantas regiões é tão amada</p>" +
-        "<p class='text-xl'>Um semblante de alegria no olhar <br>Do seu povo nunca te faz chorar <br>Azul como teu mar <br>Águas claras são seu lar</p>" +
-        "<p class='text-xl'>Amarelo como teu ouro <br>Teu solo, teu tesouro <br>País de prosperidade, <br>De carisma e de felicidade</p>" +
-        "<p class='text-xl'>Amazônia sagrada <br>Tão querida e desejada <br>Minha mãe santa protege nossa nação <br>E aquece nosso coração</p>",
+        "<p class='text-xl'>Teu coração, Brasil, pulsa amor profundo,<br>Em teus braços, encontro um lar fecundo.<br>Nas verdes matas, teu abraço silente,<br>Ecoa a canção de um povo ardente.</p><p class='text-xl'>No Amazonas, o rio serpenteia,<br>Beijo doce entre a floresta e a areia.<br>Encantos ribeirinhos, amor a desaguar,<br>Em cada sorriso, um desejo a vibrar.</p><p class='text-xl'>Nordeste, terra de sol e paixão,<br>Teu mar sussurra versos ao coração.<br>Nas noites de lua, danço com teu gingado,<br>Axé que me envolve, amor encantado.</p><p class='text-xl'>Centro-oeste, vastidão sem fim,<br>Em teus campos, brota o amor em mim.<br>Cerrado florescendo, paixão a renovar,<br>Cada entardecer, um beijo a soprar.</p><p class='text-xl'>Sudeste vibrante, cidade e mar,<br>Teu ritmo é chama a nos embalar.<br>No samba, encontro o amor verdadeiro,<br>Rio e São Paulo, sentimentos inteiros.</p><p class='text-xl'>Sul de encantos, sob céus tão azuis,<br>Teus vales e serras, o amor traduz.<br>Chimarrão compartilhado, aconchego e calor,<br>Nos pampas, o vento murmura nosso amor.</p><p class='text-xl'>Brasil, teu nome é melodia no peito,<br>Em cada canto, um romance perfeito.<br>Culturas que se entrelaçam, dança sem fim,<br>Te amo em cada detalhe, em cada jardim.</p>",
     },
     {
-      id: 2,
-      title: "Nordeste",
-      author: "Ana Julia da Silva",
+      id: 21,
+      title: "Desencantos do Brasil",
+      author: "Mariana",
       description:
-        "<p class='text-xl'>O dia começa cedo por lá<br> A noite foi longa, dona Maria nem conseguiu o zoío pregá<br> Lembrando do tempo em que foi menina moça e arrudiava a roça<br> Com a bacia na cabeça, sob o sol escaldante</p> <p class='text-xl'>Ela pouco sorria, mas sempre ouvia Luiz Gonzaga<br> Porque tamanha judiação? Eu te asseguro, não chore não, viu?<br> Que eu voltarei, viu, meu coração<br> De repente via a alegria das crianças jogando chimbra ou futebol no campo areioso</p> <p class='text-xl'>Apesar do aperreio seu João nunca foi cabra mole<br> Nunca deixou faltar alimento na mesa<br> Depois de véio veio para São Paulo<br> Descarregou as malas e para cortar o fitilho vermelho<br> Arrebatou uma peixeira da cintura<br> (eita, bixiga! Guarde isso, guarde! Se não o senhor se lasca todinho)</p> <p class='text-xl'>Sardinha sargada, buxada, farinha di mandioca, cuscuz, lanchinho, bolacha sete capas.<br> Tudo isso na feira de Arapiraca</p> <p class='text-xl'>Ah, Alagoas, mãe de tantos filhos com belas praias que prendem a atenção e causam emoção<br> Terra da vó Maria</p>",
-    },
-    {
-      id: 3,
-      title: "Cores do Brasil",
-      author: "Vinícius e Cauã",
-      description:
-        "<p class='text-xl'> Nosso país <br/> Com nossos campos <br/> E nossas mais lindas flores <br/> Com nosso céu de azul anil </p> <p class='text-xl'> Com o verde da nossa bandeira <br/> E o dourado das nossas estrelas <br/> Com as nossas mais diversas cores <br/> Fazendo uma linda aquarela </p> <p class='text-xl'> Esse é o nosso país <br/> Com a mais bela paleta <br/> Dentre todas as bandeiras </p>",
+        "<p class='text-xl'> Nas águas do Amazonas, o sol se põe em festas, <br> O batuque ecoa, a floresta se agita <br> Parintins se colore de azul e vermelho <br> Boi Caprichoso e Garantido em desafio </p>" +
+        "<p class='text-xl'> No Nordeste, São João brilha com céu aceso <br> As fogueiras aquecem o coração do sertanejo <br> Em comemoração ao nascimento de João Batista <br> Pessoas se vestem como Lampião e Maria Bonita </p>" +
+        "<p class='text-xl'> Oh! Sudeste, nas ruas do Rio suas batucadas contagiam <br> No nosso belo carnaval, pessoas se fantasiam <br> Entre escolas e blocos essa festa não tem fim <br> É claro que o Brasil se reúne assim </p>" +
+        "<p class='text-xl'> Mas, do que serve tudo isso? <br> Se não posso mostrar nada disso pro meu filho <br> Luto todos os dias pela existência da minha família <br> Por aí só existem pessoas que não me dão a mínima <br> Somos conhecidos como o país que recebe os outros de braços abertos <br> Agora me fala! Como isso, se muitos aqui não tem nem teto? <br> Eu vejo o rico que teme perder a fortuna <br> Enquanto o mano desempregado, viciado, se afunda <br> Dentro da minha vivência, ser ignorado já é costume <br> Tarde da noite me pego pensando <br> Essa triste realidade vai durar até quando? </p>",
     },
     {
       id: 4,
@@ -260,46 +251,11 @@ export default function App() {
         "<p class='text-xl'> Nas terras vastas do Brasil se entrelaçam <br/> Cores, sons e danças que nos abraçam <br/> Da Amazônia ao Sul, um mosaico de beleza <br/> Onde a cultura floresce em pura grandeza </p> <p class='text-xl'> Nas festas populares ao brilho do carnaval <br/> Um mar de alegria, um festim sem igual </p> <p class='text-xl'> A diversidade que nos une e nos inspira <br/> O Brasil resplandece em cada linda lira </p> <p class='text-xl'> Pelas suas adversidades releva <br/> Sabores, cheiros, histórias que encantam a tela <br/> Na arte, na literatura, na poesia a ecoar <br/> O Brasil se mostra um local singular <br/> Que traz desde Iracema um lugar peculiar </p> <p class='text-xl'> E nelas há palmeiras onde canta o sabiá <br/> Vistas lindas é bom ressaltar </p> <p class='text-xl'> Entre matas e cidades nasce a identidade <br/> De um povo que celebra sua vasta variedade </p> <p class='text-xl'> Comércio brasileiro é o que mais enriquece <br/> A natureza é nossa maior riqueza </p> <p class='text-xl'> Mas e o valor que damos perante a ela? <br/> Onde está nossa referência? <br/> É apenas coincidência! <br/> Meu Deus, onde está nossa Passárgada? </p> <p class='text-xl'> Vou-me embora para Passárgada <br/> O que será que vou encontrar? <br/> Será que vou encontrar o Brasil ou outro lugar? </p>",
     },
     {
-      id: 5,
-      title: "Preconceito Cultural no Brasil",
-      author: "Vitória Masselco, Higor Fernandes, Ana Glória Pires",
-      description:
-        "<p class='text-xl'>Brasil de cores e sons mil,<br> Onde o preconceito ainda é vil.<br> Culturas se encontram, se colocam no ar,<br> Mas o olhar torto insiste em julgar.</p> <p class='text-xl'>Indígenas, pretos, suas vozes caladas,<br> Histórias ricas, tantas vezes negada.<br> Samba e maracatu, nossa identidade<br> Muitas vezes vistos com dualidade.</p> <p class='text-xl'>Mas na diversidade, a força brilha,<br> E no respeito, a esperança trilha.<br> Que o preconceito se desfaça, enfim,<br> E a riqueza cultural floresça sem fim.</p>",
-    },
-    {
-      id: 6,
-      title: "Máscaras da Ignorância",
-      author: "Maria Laura de Castro",
-      description:
-        "<p class='text-xl'>Entre as sombras do desconhecido,<br> Se esconde o preconceito arraigado,<br> Máscaras que ocultam a verdade,<br> E aprisionam a alma na falsidade.</p> <p class='text-xl'>Culturas diversas, cores e sabores,<br> Tecem o tapete dos nossos valores,<br> Mas onde deveria haver celebração,<br> Às vezes reina a estranha exclusão.</p> <p class='text-xl'>No riso de crianças de diferentes chãos,<br> Na dança dos sonhos de mil corações,<br> Há uma riqueza que não se mede em ouro,<br> Mas em laços de amor que rompem o muro.</p> <p class='text-xl'>Desvendar o outro é um ato de coragem.<br> Romper barreiras, transcender a miragem,<br> É no encontro das diferenças que aprendemos,<br> Que somos todos humanos, todos serenos.</p> <p class='text-xl'>Que cada verso desta poesia ecoe a verdade,<br> Que o preconceito cultural é vão na idade,<br> E que na diversidade está a nossa riqueza.<br> Na união das culturas, a nossa fortaleza.</p>",
-    },
-    {
-      id: 7,
-      title: "Cicatrizes Culturais",
-      author: "Maria Laura de Castro",
-      description:
-        "<p class='text-xl'>Entre danças e ritmos que ecoam, histórias não contadas,<br> Lágrimas rolam, raízes marcadas pela dor e preconceito, em<br> Cada cultura um grito por respeito.</p> <p class='text-xl'>Pelo que carrega séculos de dor, mas também a beleza<br> De um amor sem fim, na diversidade, a verdadeira humanidade,<br> Celebrando cada cultura com igualdade.</p>",
-    },
-    {
-      id: 8,
-      title: "Encantos do Brasil",
-      author: "Guilherme Generiko, Matheus Inácio e Victor Hugo",
-      description:
-        "<p class='text-xl'>Teu coração, Brasil, pulsa amor profundo,<br>Em teus braços, encontro um lar fecundo.<br>Nas verdes matas, teu abraço silente,<br>Ecoa a canção de um povo ardente.</p><p class='text-xl'>No Amazonas, o rio serpenteia,<br>Beijo doce entre a floresta e a areia.<br>Encantos ribeirinhos, amor a desaguar,<br>Em cada sorriso, um desejo a vibrar.</p><p class='text-xl'>Nordeste, terra de sol e paixão,<br>Teu mar sussurra versos ao coração.<br>Nas noites de lua, danço com teu gingado,<br>Axé que me envolve, amor encantado.</p><p class='text-xl'>Centro-oeste, vastidão sem fim,<br>Em teus campos, brota o amor em mim.<br>Cerrado florescendo, paixão a renovar,<br>Cada entardecer, um beijo a soprar.</p><p class='text-xl'>Sudeste vibrante, cidade e mar,<br>Teu ritmo é chama a nos embalar.<br>No samba, encontro o amor verdadeiro,<br>Rio e São Paulo, sentimentos inteiros.</p><p class='text-xl'>Sul de encantos, sob céus tão azuis,<br>Teus vales e serras, o amor traduz.<br>Chimarrão compartilhado, aconchego e calor,<br>Nos pampas, o vento murmura nosso amor.</p><p class='text-xl'>Brasil, teu nome é melodia no peito,<br>Em cada canto, um romance perfeito.<br>Culturas que se entrelaçam, dança sem fim,<br>Te amo em cada detalhe, em cada jardim.</p>",
-    },
-    {
       id: 9,
       title: "Cultura",
       author: "Matheus Gonzaga",
       description:
         "<p class='text-xl'>Que lindo povo<br> Com uma linda cultura<br> Tudo isso se aprende com leitura<br> Mas nada disso é novo</p> <p class='text-xl'>Não dar valor ao que tem<br> Outros povos gostam<br> Na internet até postam<br> Hora de se vangloriar, pois isso lhe convém</p> <p class='text-xl'>Sua cultura, por muitos não valorizada<br> Sua visão de mundo é fechada<br> Parecem vira-lata<br> Só esperando para dar a pata</p> <p class='text-xl'>Influenciado por todos<br> Continuem, isso é alegria<br> Peguem os rodos<br> Hora de secar essa hipocrisia.</p>",
-    },
-    {
-      id: 10,
-      title: "Mudança",
-      author: "Gabriel de Oliveira",
-      description:
-        "<p class='text-xl'>Brasil, um país extenso<br> Repleto de povos e culturas<br> Seu passado é hoje refletido<br> Dor e sofrimento dos aqui nascidos</p> <p class='text-xl'>Diferentes crenças e ideias<br> Condenado à mudança<br> Esquecido e sem esperança</p> <p class='text-xl'>Explorados, condenados<br> Deixados no passado<br> Terra que um dia reinaram<br> Descoberta a Ilha de Vera Cruz</p> <p class='text-xl'>Hoje exaltados<br> Preservados e notados<br> Ainda assim, de lado deixados</p> <p class='text-xl'>Seu nome é esquecido<br> Um povo sem voz e direitos<br> Chamado de “índios” por engano<br> Originais detidos por nós estrangeiros</p>",
     },
     {
       id: 11,
@@ -309,42 +265,24 @@ export default function App() {
         "<p class='text-xl'>No Sul<br> Terra amiga, onde o vento<br> A vida abriga<br> Pampa, vento<br> Verde abrigo<br> Cada canto<br> Um amigo</p> <p class='text-xl'>Chimarrão, tradição<br> Puro desejo<br> Churrasco ardente, sabor intenso<br> Na fumaça um bom consenso</p> <p class='text-xl'>Mesa farta<br> Comida e bebida<br> Celebração alegria vida</p> <p class='text-xl'>Sul querido, solo amado, culto à vida lado a lado</p>",
     },
     {
-      id: 12,
-      title: "Sem título",
-      author: "Vinícius",
+      id: 1,
+      title: "Sul",
+      author: "Caio, Maria Clara, Maria Laura e Rayca Souza",
       description:
-        "<p class='text-xl'>Brasil<br> Nosso país<br> Uma linda mistura de cores<br> Desbotando aos poucos<br> Como um pulmão tão verde<br> Se torna cinza?</p> <p class='text-xl'>E das nossas praias douradas<br> Querem tirar o brilho<br> Será que nosso Cristo zelaria por nós?<br> Ou em nossas festas de junho<br> Queimaremos mais alguém</p> <p class='text-xl'>Então adeus céu azul<br> Pois nesse mundo em descomunhão<br> Às estrelas não posso chegar<br> E os meus orixás, não posso encontrar</p>",
+        "<p class='text-xl'>Gaúcho de tradição <br>Meu sul, amado coração <br>No cantar me acompanha o chimarrão</p>" +
+        "<p class='text-xl'>Rio Grande é este chão, <br>Onde a cultura honra tradição, <br>O churrasco, a dança e o pinhão</p>" +
+        "<p class='text-xl'>Bah, que surpresa <br>Enchentes na represa <br>Devastação do meu sul <br>Era tudo tão azul</p>" +
+        "<p class='text-xl'>Povo derrama solidão <br>Tanta tristeza em uma multidão <br>Meu povo grita o coração <br>Em meio a tanta inundação</p>",
     },
     {
-      id: 13,
-      title: "Regiões do Brasil",
-      author: "Daniel",
+      id: 27,
+      title: "Todos por um",
+      author: "João Paulo e Kerolyn Bazza",
       description:
-        "<p class='text-xl'> Em cada canto do Brasil, um encanto <br>Rios, montanhas, mares em tom de canto <br>Culturas diversas, mosaico vibrante <br>De um povo que brilha, de alma gigante </p>" +
-        "<p class='text-xl'> No norte, a Amazônia, verde imensidão <br>Lendas e festas, ritmo do coração <br>O Boi-Bumbá dança, vida a pulsar <br>No Folclore encantado, histórias a contar </p>" +
-        "<p class='text-xl'> Nordeste, terra de sol e cor <br>Frevo, maracatu, carnaval e amor <br>Culinária rica, de sabor sem fim <br>Cacau, cuscuz, caruru, axé e tamborim </p>" +
-        "<p class='text-xl'> O Centro-Oeste é festa no cerrado <br>Festas juninas, o sertão celebrado <br>Pantanal reflete o céu estrelado <br>Boiadeiros, peões, folia do reinado </p>" +
-        "<p class='text-xl'> No Sudeste, modernidade e tradição <br>Samba, bossa nova, cultura em profusão <br>Minas Gerais, com sua história e pão de queijo <br>São Paulo e Rio, no ritmo do desejo </p>" +
-        "<p class='text-xl'> No Sul, tradições que nos abraçam <br>Chimarrão e dança, as raízes que enlaçam <br>Festas de colheita, sotaque de chão <br>Culturas gaúchas, catarinense, paranaense na mão </p>",
-    },
-    {
-      id: 14,
-      title: "Regiões do Brasil",
-      author: "Evaristo, João Luís e Luiz Felipe",
-      description:
-        "<p class='text-xl'> Nas terras de sol e mar, <br> Canta o povo a festejar, <br> Com danças e cores mil, <br> Celebrações do Brasil. </p>" +
-        "<p class='text-xl'> O Bumba meu boi do Maranhão, <br> Mistura fé dança e canção, <br> O povo canta com devoção, <br> Em noites de pura tradição. </p>" +
-        "<p class='text-xl'> No Rio o carnaval reluz, <br> Um mar de gente que seduz, <br> Com sambas e fantasias brilhantes, <br> No ritmo de batuques vibrantes. </p>" +
-        "<p class='text-xl'> Cada conto uma celebração, <br> Cada festa um coração, <br> Nas raízes do Brasil, o tesouro, <br> A cultura em festa, nosso maior ouro. </p>",
-    },
-    {
-      id: 15,
-      title: "Opressão dos povos indígenas e a queima de suas terras",
-      author: "Lara Sterzk",
-      description:
-        "<p class='text-xl'> Terra sagrada <br> Que estou a pisar <br> Mata divina, que está a queimar <br> Terra vazia que estão a matar <br> O templo dos povos, está a cair <br> A casa deles, está a sumir </p>" +
-        "<p class='text-xl'> É tirado o que a eles pertence <br> Lhes é tirado até o que pensem <br> Em fogo e chamas vão lhes calar <br> Nas cinzas esquecidas as memórias o vento irá levar <br> Para a escuridão suas histórias guardar </p>" +
-        "<p class='text-xl'> Frutos de uma cruel opressão <br> Vítimas de uma impiedosa execução <br> E sem as leis vão ter que lutar <br> Pois a justiça em suas tribos não vai chegar </p>",
+        "<p class='text-xl'> Água, fome, desabrigados, <br> Tudo isso sempre será lembrado. <br> Com tristeza em nosso coração <br> Todos juntos sentiremos. </p>" +
+        "<p class='text-xl'> Todos por um, <br> Ajudando e reconstruindo uma população. <br> Assim renascerá em nossa nação <br> A união. </p>" +
+        "<p class='text-xl'> Realçando a todos que a cultura brasileira <br> Não se trata apenas de festas e brilho, <br> Mas também um povo que luta <br> Para ajudar aqueles que precisam. </p>" +
+        "<p class='text-xl'> Todos por uma só região <br> Para o sul toda nossa compaixão <br> Esperamos a reconstrução dessa grande nação </p>",
     },
     {
       id: 16,
@@ -358,148 +296,11 @@ export default function App() {
         "<p class='text-xl'> Em nossos corações, <br> Sede de ser honrado <br> E nosso povo clama: <br> “paz no futuro, <br> E glória no passado”. </p>",
     },
     {
-      id: 17,
-      title: "Brasil, terra de encanto ou será que não?",
-      author: "Ana Heloísa",
+      id: 6,
+      title: "Máscaras da Ignorância",
+      author: "Maria Laura de Castro",
       description:
-        "<p class='text-xl'> <b>Brasil, terra de encanto ou será que não? </b> </p>" +
-        "<p class='text-xl'> Brasil, terra de encanto e beleza sem igual, <br> Das praias douradas ao verde do sertão, <br> Tua cultura é rica, nossa inspiração, nossas raízes, <br> Histórias que nos lembram da liberdade e soberania do nosso Brasil, nossa terra de encanto. </p>" +
-        "<p class='text-xl'> Como é bela nossa Pátria, tem riquezas e belezas mil, nas suas matas minha gente é o Brasil. </p>" +
-        "<p class='text-xl'> Mas oh, pobre Indiozinho... <br> Indiozinho nu na mata <br> Arco e flecha em sua mão <br> Foi caçar seu alimento, indiozinho brincalhão <br> Indiozinho tão valente foi na vida se embrenhar <br> Curioso esse menino indiozinho a brincar </p>" +
-        "<p class='text-xl'> Indiozinho ficou triste <br> Quando viu tudo a queimar <br> Sua tribo, sentiu fome <br> Vi um índio a chorar. </p>",
-    },
-    {
-      id: 18,
-      title: "Ainda que tarde",
-      author: "Arthur Santana",
-      description:
-        "<p class='text-xl'> Trouxera paz ao povo Tupi <br> de repente, sumira daqui <br> O português a tornou nada <br> fora trocada por facas, machados e espelhos <br> meros aparelhos que alimentaram o colono </p>" +
-        "<p class='text-xl'> Escondeu-se <br> duzentos anos à sombra <br> Não vira o homem escravizar o homem, <br> sonhando que cortem, <br> as amarras da senzala </p>" +
-        "<p class='text-xl'> Revigorada, foi exploradora, rebelde <br> bandeirante e inconfidente <br> Fora razão de luta <br> de lanças, facões, bacamartes, canhões <br> de versos decassílabos, resenhas, artigos </p>" +
-        "<p class='text-xl'> Mas o colono não gostou <br> e fez a derrama, <br> Então fora trama de sangue e de ouro, <br> ataque duradouro que a ele resistiu </p>" +
-        "<p class='text-xl'> Mas não aparecera na bandeira <br> O que são Ordem e Progresso perto de seu poder? <br> Ela fora o porquê de Dom Pedro ficar! <br> fora razão de o inconfidente lutar! <br> para não acabar com a paz do futuro! </p>" +
-        "<p class='text-xl'> Hoje, <br> após o golpe do militar, <br> e o povo ser proibido de sonhar, <br> na Constituição reside plena <br> mas pena daqueles que dela se esquecem <br> pena daqueles que sequer a conhecem </p>" +
-        "<p class='text-xl'> Mas ela existe, <br> e pisou na terra <br> acompanhou a caravela <br> assistiu ao engenho <br> assistiu ao empenho do inconfidente lutando <br> que, sonhando, fizera um pedido </p>" +
-        "<p class='text-xl'> pediu que, <br> ainda que tarde, <br> chegasse ela, <br> a Liberdade </p>",
-    },
-    {
-      id: 19,
-      title: "Mar da ignorância",
-      author: "Felipe Gregório e Ives Gomes",
-      description:
-        "<p class='text-xl'> Escolhi tu, Brasil, dentre todas nações <br> Terra das grandes culturas ramificadas <br> Ao longo do tempo inúmeras decepções <br> O fluxo contínuo de mentes embarcadas </p>" +
-        "<p class='text-xl'> A caminho de um Estado requisitante <br> Prodígios inconformados deste lugar <br> O balanço da maré flui sempre constante <br> Arrasto impulsivo mundo afora a vagar </p>" +
-        "<p class='text-xl'> Regime da falta de consideração <br> Brasil, ensino focado no não saber <br> A pátria carece de boa educação </p>" +
-        "<p class='text-xl'> Aos alunos falta a fonte para embeber <br> Dos grandes feitos há a adoção da omissão <br> Diante disso só te falta aperceber </p>",
-    },
-    {
-      id: 20,
-      title: "Festa de Junho",
-      author: "Helder",
-      description:
-        "<p class='text-xl'> Festa junina <br> Uma festa demais <br> Pessoas alegres <br> Isto é diversão, rapaz </p>" +
-        "<p class='text-xl'> \"Mas e o governo nos ferrando sem olhar pra trás?\" <br> Deixe isso para lá, meu rapaz <br> Hoje é dia de diversão <br> Não se importe com o fato que você é um mero capataz </p>" +
-        "<p class='text-xl'> Olha a taxa <br> Subindo cada dia mais <br> Olha cobra, é mentira, é só o governo querendo pegar mais </p>" +
-        "<p class='text-xl'> Seu bolso esvaziou, você se ferrou <br> Mas para que ligar <br> Aqui estamos no momento de festejar </p>" +
-        "<p class='text-xl'> Pula fogueira de São João <br> Olha o governo nos roubando então <br> Juros e taxas aumentando de montão </p>" +
-        "<p class='text-xl'> Um montante tão grande <br> Me lembra o baile ao luar <br> Na noite, cuidado ladrões irão te roubar </p>" +
-        "<p class='text-xl'> \"Punidos eles sairão?\" <br> Óbvio que não <br> Para que punir um menino sem educação? <br> Só porque ele acabou com a sua vida você quer o punir? </p>" +
-        "<p class='text-xl'> Que maldoso <br> Seu ser meticuloso <br> Claramente a culpa é sua <br> Por que veio festejar <br> Se da nossa cultura irá reclamar? </p>",
-    },
-    {
-      id: 21,
-      title: "Desencantos do Brasil",
-      author: "Mariana",
-      description:
-        "<p class='text-xl'> Nas águas do Amazonas, o sol se põe em festas, <br> O batuque ecoa, a floresta se agita <br> Parintins se colore de azul e vermelho <br> Boi Caprichoso e Garantido em desafio </p>" +
-        "<p class='text-xl'> No Nordeste, São João brilha com céu aceso <br> As fogueiras aquecem o coração do sertanejo <br> Em comemoração ao nascimento de João Batista <br> Pessoas se vestem como Lampião e Maria Bonita </p>" +
-        "<p class='text-xl'> Oh! Sudeste, nas ruas do Rio suas batucadas contagiam <br> No nosso belo carnaval, pessoas se fantasiam <br> Entre escolas e blocos essa festa não tem fim <br> É claro que o Brasil se reúne assim </p>" +
-        "<p class='text-xl'> Mas, do que serve tudo isso? <br> Se não posso mostrar nada disso pro meu filho <br> Luto todos os dias pela existência da minha família <br> Por aí só existem pessoas que não me dão a mínima <br> Somos conhecidos como o país que recebe os outros de braços abertos <br> Agora me fala! Como isso, se muitos aqui não tem nem teto? <br> Eu vejo o rico que teme perder a fortuna <br> Enquanto o mano desempregado, viciado, se afunda <br> Dentro da minha vivência, ser ignorado já é costume <br> Tarde da noite me pego pensando <br> Essa triste realidade vai durar até quando? </p>",
-    },
-    {
-      id: 22,
-      title: "Periferia",
-      author: "Ana Julia",
-      description:
-        "<p class='text-xl'> Marginalização <br> Conhecimento <br> Pertencimento <br> Democratização </p>" +
-        "<p class='text-xl'> No Sudeste do país, <br> Canindé-zona norte, Serrana Fluminense, Beira Mar <br> Pena do que o pobre há de comer o que encontrar no lixo ou então dormir com fome. Você já viu um cão quando quer segurar a cauda com a boca e fica rodando sem pegá-la? </p>" +
-        "<p class='text-xl'> Longe dos centros urbanos não há o que fazer, <br> Escola vazia, esperança quase não se via. Como trazê-la à existência? Entidades representantes da cultura, onde estão para propiciar com abrangência o ensino de qualidade para então chamado \"favelado\"? </p>" +
-        "<p class='text-xl'> Comunidades sem cuidado, onde está a sua identidade? </p>",
-    },
-    {
-      id: 23,
-      title: "Oh, querido Norte",
-      author: "Gabrielly",
-      description:
-        "<p class='text-xl'> No Norte do Brasil, onde o rio canta, <br> Corre a vida pulsante na imensidão, <br> Entre verdes florestas que se agigantam, <br> Brota a alma da nossa nação. </p>" +
-        "<p class='text-xl'> É na dança do carimbó que vejo, <br> O sorriso e o suor do povo forte, <br> Que no embalo da vida, sem pejo, <br> Transforma cada dia em sorte. </p>" +
-        "<p class='text-xl'> Açaí e cupuaçu, sabores divinos, <br> Riquezas da terra, presente do chão, <br> No tacacá, tucupi e pratos genuínos, <br> Reside a essência e a tradição. </p>" +
-        "<p class='text-xl'> Boto cor-de-rosa, lendas do folclore, <br> Histórias que o rio carrega ao mar, <br> O povo do Norte em versos implore, <br> Que suas raízes jamais vão se apagar. </p>" +
-        "<p class='text-xl'> Nas palafitas à beira do igaparé, <br> A vida segue seu ritmo sem pressa, <br> É o amor pela terra que se vê, <br> No canto da mata que nunca cessa. </p>" +
-        "<p class='text-xl'> Oh, querido Norte, berço de riqueza, <br> Cultura viva em cada canto e cor, <br> Que tua história ressoe com certeza, <br> Como hino eterno de força e valor. </p>",
-    },
-    {
-      id: 24,
-      title: "Norte Brasil, Brasil Norte",
-      author: "Samira",
-      description:
-        "<p class='text-xl'> Verde, amarelo e azul <br> Nesse Brasil jamais recuo <br> Tanto aqui para se ver <br> Que quem vê não vai esquecer, <br> Ah que norte mais bonito! <br> Quantos rios lindos. </p>" +
-        "<p class='text-xl'> Neles encontram muita fauna <br> Peixe-boi, tartaruga, boto cor-de-rosa <br> Se parar e olhar, é bem poderosa <br> Folclore diverso e diferente <br> Quem conhece é muita gente. </p>" +
-        "<p class='text-xl'> Lá no Norte tem muita festa também, <br> Como o Círio de Nazaré <br> E festa do Sairé. <br> Ouvi falar de dança? <br> Tem sim! As cirandas <br> Todo mundo dança <br> Adulto, idoso, jovem e criança. </p>" +
-        "<p class='text-xl'> Brasil incrível de viver <br> Tantas coisas para oferecer <br> Cuidado ao ir na floresta <br> Pode encontrar a boitatá </p>",
-    },
-    {
-      id: 25,
-      title: "Dance meu Brasil!",
-      author: "Julia Cristina",
-      description:
-        "<p class='text-xl'> Brasil com sua vasta imensidão <br> Que tens suas diversas culturas </p>" +
-        "<p class='text-xl'> Uns se animam em junho, época de festa junina! <br> Que vem junto da quadrilha e lá vem os caipiras <br> Lá na Bahia o samba se desenrola em uma roda <br> Com música ressoando e o pessoal acompanhando </p>" +
-        "<p class='text-xl'> Pro norte bumba meu boi já vem chegando <br> Com sua representação de várias culturas <br> Desde santos aos orixás </p>" +
-        "<p class='text-xl'> No centro-oeste a catira se começa <br> Com seus catireiros se ajuntando em filas <br> E logo o chupim se começa <br> Com os casais se ajuntando para a festa </p>" +
-        "<p class='text-xl'> Já no sudeste inicia-se o jongo <br> Seus participantes em uma roda <br> Cantando e celebrando suas culturas <br> O pessoal da dança do mineiro pau <br> Que com seus bastões vão os batendo no chão </p>" +
-        "<p class='text-xl'> No sul na chula tem que se manter o ritmo <br> Se quiser vencer na dança <br> A vaneira se expressando artisticamente <br> Com as pessoas do campo celebrando <br> Trazendo a sua cultura à tona </p>" +
-        "<p class='text-xl'> E ainda pensar que há tantas mais <br> Neste nosso brasilzão! </p>",
-    },
-    {
-      id: 26,
-      title: "Histórias de infância",
-      author: "João Paulo e Kerolyn Bazza",
-      description:
-        "<p class='text-xl'> Cativados pela nossa infância <br> Retomados das antigas lembranças. <br> Contadas nas rodas de conversa <br> Escutávamos histórias diversas. </p>" +
-        "<p class='text-xl'> Reforçadas pelos desenhos <br> Influenciavam nosso pensamento. <br> Ensinadas pela professora <br> Adquirimos o conhecimento </p>" +
-        "<p class='text-xl'> A Cuca, o Saci, o Lobo, <br> Iara, Vitória Régia e o Boto. <br> Os ícones da nossa infância <br> Enriquecendo o folclore brasileiro </p>" +
-        "<p class='text-xl'> Comemorado e lembrado <br> Com um dia especialmente para ele <br> Nossa cultura amada <br> Folclore, do povo brasileiro. </p>",
-    },
-    {
-      id: 27,
-      title: "Todos por um",
-      author: "João Paulo e Kerolyn Bazza",
-      description:
-        "<p class='text-xl'> Água, fome, desabrigados, <br> Tudo isso sempre será lembrado. <br> Com tristeza em nosso coração <br> Todos juntos sentiremos. </p>" +
-        "<p class='text-xl'> Todos por um, <br> Ajudando e reconstruindo uma população. <br> Assim renascerá em nossa nação <br> A união. </p>" +
-        "<p class='text-xl'> Realçando a todos que a cultura brasileira <br> Não se trata apenas de festas e brilho, <br> Mas também um povo que luta <br> Para ajudar aqueles que precisam. </p>" +
-        "<p class='text-xl'> Todos por uma só região <br> Para o sul toda nossa compaixão <br> Esperamos a reconstrução dessa grande nação </p>",
-    },
-    {
-      id: 28,
-      title: "Noite empolgada",
-      author: "João Paulo e Kerolyn Bazza",
-      description:
-        "<p class='text-xl'> Bandeiras coloridas, milho e muita dança <br> Quadrilha ensaiada, casais entusiasmados. <br> A luz da fogueira ilumina a noite, <br> E também o sorriso das crianças </p>" +
-        "<p class='text-xl'> São João exala no lugar <br> Milho quente contagia o paladar <br> Achocolatado sempre prestigiado <br> Assim é a amada festa junina </p>" +
-        "<p class='text-xl'> Comemorada e esperada <br> Data e hora dedicada <br> O povo brasileiro ansioso aguarda <br> Para o início dessa noite empolgada. </p>" +
-        "<p class='text-xl'> Desde a infância ensinada e adorada. <br> Gravada no coração dos cidadãos <br> E na cultura da nação </p>",
-    },
-    {
-      id: 29,
-      title: "Cheiros e sabores",
-      author: "João Paulo e Kerolyn Bazza",
-      description:
-        "<p class='text-xl'> Mistura de sabores, <br> Foi assim que a culinária brasileira <br> Nos ensinou <br> Com formatos e cores </p>" +
-        "<p class='text-xl'> No paladar mistura de sentimentos, <br> Lembranças e sensações </p>" +
-        "<p class='text-xl'> E no olfato... <br> O cheirinho da feijoada da vovó <br> Que pela casa exala <br> O aroma suave do louro fervilhando <br> E o toucinho cozinhando </p>" +
-        "<p class='text-xl'> Esse é o paladar do povo brasileiro <br> Que carrega em suas veias com orgulho <br> Sua culinária, herança de gerações </p>",
+        "<p class='text-xl'>Entre as sombras do desconhecido,<br> Se esconde o preconceito arraigado,<br> Máscaras que ocultam a verdade,<br> E aprisionam a alma na falsidade.</p> <p class='text-xl'>Culturas diversas, cores e sabores,<br> Tecem o tapete dos nossos valores,<br> Mas onde deveria haver celebração,<br> Às vezes reina a estranha exclusão.</p> <p class='text-xl'>No riso de crianças de diferentes chãos,<br> Na dança dos sonhos de mil corações,<br> Há uma riqueza que não se mede em ouro,<br> Mas em laços de amor que rompem o muro.</p> <p class='text-xl'>Desvendar o outro é um ato de coragem.<br> Romper barreiras, transcender a miragem,<br> É no encontro das diferenças que aprendemos,<br> Que somos todos humanos, todos serenos.</p> <p class='text-xl'>Que cada verso desta poesia ecoe a verdade,<br> Que o preconceito cultural é vão na idade,<br> E que na diversidade está a nossa riqueza.<br> Na união das culturas, a nossa fortaleza.</p>",
     },
     {
       id: 30,
@@ -522,6 +323,108 @@ export default function App() {
         "<p class='text-xl'> O cheiro do milho amado, do quentão fervendo <br> Junta-se ao riso das crianças correndo <br> O som do sanfoneiro, e sertanejo ecoando <br> Esse é o interior, com sua melodia pulsando </p>" +
         "<p class='text-xl'> Nas feiras, o artesanato é riqueza <br> Rendas e bordados, um talento nas mãos <br> Cada peça, uma história, uma certeza <br> Do trabalho árduo, que vem do coração </p>" +
         "<p class='text-xl'> As prosas nas rodas, a luz do luar <br> Contam-se histórias de assombração <br> E o brilho das estrelas a iluminar <br> Os sonhos guardados no coração </p>",
+    },
+    {
+      id: 34,
+      title: "Sinfonias do Brasil",
+      author: "Maria Vitória, Marieli e Caroline Campos",
+      description:
+        "<p class='text-xl'>Toda diversidade dentro de um som<br>" +
+        "Cada cantiga, um tom<br>" +
+        "Gerando dentro de notas<br>" +
+        "Uma orquestra triunfal<br>" +
+        "Uns acham meio banal<br>" +
+        "Mas tocam no rádio<br>" +
+        "ou em qualquer local</p>" +
+        "<p class='text-xl'>A garota que passou por Ipanema e fez Tom cantar<br>" +
+        "Jorge e Matheus viajaram no seu olhar<br>" +
+        "Tudo por causa do amor<br>" +
+        "Porque tamanha judiação, Gonzaga?<br>" +
+        "Uma legião - não necessariamente urbana - procura um tempo perdido<br>" +
+        "Em meio a tantas evidências vivem negando<br>" +
+        "Um tal de Djavan disse que te adora em tudo<br>" +
+        "Será eu exagerado como Cazuza?</p>" +
+        "<p class='text-xl'>Em Maresias vendo o mar, me fez imaginar<br>" +
+        "Um milhão de vagalumes<br>" +
+        "Mas foi a luz dos olhos meus, ao encontrar os olhos teus que fizeram sonhar<br>" +
+        "O meu amor por ti, Brasil<br>" +
+        "Porém em um futuro próximo você verá, como Toquinho declarou ao cantar<br>" +
+        "Uma terra que, enfim, descolorirá</p>",
+    },
+    {
+      id: 39,
+      title: "As praias",
+      author: "Raquel Morgado",
+      description:
+        "<p class='text-xl'> As famílias e a alegria, <br/> O amor e a harmonia, <br/> Me sinto agradecida, <br/> Por ter essa vida! </p> <p class='text-xl'> Uma água de coco para refrescar, <br/> Ou um milho quente para esquentar? <br/> Açaí e Cupuaçu, <br/> Litoral Norte ou litoral Sul? </p> <p class='text-xl'> Areia no meu pé, <br/> E na minha cabeça um boné, <br/> À frente vejo o mar, <br/> Com suas ondas a quebrar. </p> <p class='text-xl'> Assim é meu Brasil, meu doce mar, <br/> Cheio de belezas, de praias, de ondas, de amar! </p>",
+    },
+    {
+      id: 46,
+      title: "Bruno",
+      author: "Bruno",
+      description:
+        "<p class='text-xl'> em nossa cultura <br/> essa luta é minha e sua <br/> mesmo que nao seja mutua <br/> veras que um filho teu nao foge a luta </p> <p class='text-xl'> esqueceram do hip hop <br/> na timeline do tiktok <br/> demonizam essa parte <br/> apenas falando de porte </p> <p class='text-xl'> onde só falam da morte <br/> esqueceram a cultura <br/> pois na zona norte <br/> temos estrutura </p> <p class='text-xl'> hoje só quero sentir o vento de sp <br/> selva de concreto e pessoas a mercê <br/> quero sonhar o que vivi <br/> às vezes sonhando muito mais do que podemos ter </p> <p class='text-xl'> ignorados pelo estado <br/> mas favela e cultura andam lado a lado <br/> imitaram tanto os gringos <br/> temos o nosso brooklyn em São Paulo </p> <p class='text-xl'> temos o rap e o hiphop <br/> ensinam mais que o cantor de pop <br/> no skate e o grafite só pra mídia ver <br/> união e cultura ainda existem em SP </p>",
+    },
+    {
+      id: 47,
+      title: "Amado Centro-oeste",
+      author: "Gabrielly Lima",
+      description:
+        "<p class='text-xl'> Centro-Oeste, terra rica, cheia de encantos mil, <br/> No coração do nosso amado Brasil. <br/> Teu cerrado vasto, de beleza singular, <br/> Abriga vidas, histórias, em cada lugar. </p> <p class='text-xl'> Brasília, capital de formas audazes, <br/> Símbolo de futuro, sonhos e bases. <br/> Goiás, com sua música, cultura e saber, <br/> E o povo hospitaleiro, que sabe acolher. </p> <p class='text-xl'> Mato Grosso, gigante, de terras sem fim, <br/> Onde o Pantanal se estende, sublime jardim. <br/> Mato Grosso do Sul, de paisagens encantadas, <br/> Com suas águas cristalinas e serras elevadas. </p> <p class='text-xl'> Rios que correm, levando vida e canção, <br/> Natureza exuberante, fonte de inspiração. <br/> Chapadas que se erguem, testemunhas do tempo, <br/> Guardam segredos antigos, histórias ao vento. </p> <p class='text-xl'> Terra de bravos, de gente que faz, <br/> Centro-Oeste querido, tu és muito mais. <br/> És o celeiro do país, a força que alimenta, <br/> Orgulho de um povo, que em ti se sustenta. </p> <p class='text-xl'> Centro-Oeste amado, de riqueza e tradição, <br/> Teu valor é imenso, bate forte o coração. <br/> No teu solo fértil, o futuro se planta, <br/> E em cada canto, tua essência encanta. </p>",
+    },
+    {
+      id: 10,
+      title: "Mudança",
+      author: "Gabriel de Oliveira",
+      description:
+        "<p class='text-xl'>Brasil, um país extenso<br> Repleto de povos e culturas<br> Seu passado é hoje refletido<br> Dor e sofrimento dos aqui nascidos</p> <p class='text-xl'>Diferentes crenças e ideias<br> Condenado à mudança<br> Esquecido e sem esperança</p> <p class='text-xl'>Explorados, condenados<br> Deixados no passado<br> Terra que um dia reinaram<br> Descoberta a Ilha de Vera Cruz</p> <p class='text-xl'>Hoje exaltados<br> Preservados e notados<br> Ainda assim, de lado deixados</p> <p class='text-xl'>Seu nome é esquecido<br> Um povo sem voz e direitos<br> Chamado de “índios” por engano<br> Originais detidos por nós estrangeiros</p>",
+    },
+    {
+      id: 19,
+      title: "Mar da ignorância",
+      author: "Felipe Gregório e Ives Gomes",
+      description:
+        "<p class='text-xl'> Escolhi tu, Brasil, dentre todas nações <br> Terra das grandes culturas ramificadas <br> Ao longo do tempo inúmeras decepções <br> O fluxo contínuo de mentes embarcadas </p>" +
+        "<p class='text-xl'> A caminho de um Estado requisitante <br> Prodígios inconformados deste lugar <br> O balanço da maré flui sempre constante <br> Arrasto impulsivo mundo afora a vagar </p>" +
+        "<p class='text-xl'> Regime da falta de consideração <br> Brasil, ensino focado no não saber <br> A pátria carece de boa educação </p>" +
+        "<p class='text-xl'> Aos alunos falta a fonte para embeber <br> Dos grandes feitos há a adoção da omissão <br> Diante disso só te falta aperceber </p>",
+    },
+    {
+      id: 20,
+      title: "Festa de junho",
+      author: "Helder",
+      description:
+        "<p class='text-xl'> Festa junina <br> Uma festa demais <br> Pessoas alegres <br> Isto é diversão, rapaz </p>" +
+        "<p class='text-xl'> \"Mas e o governo nos ferrando sem olhar pra trás?\" <br> Deixe isso para lá, meu rapaz <br> Hoje é dia de diversão <br> Não se importe com o fato que você é um mero capataz </p>" +
+        "<p class='text-xl'> Olha a taxa <br> Subindo cada dia mais <br> Olha cobra, é mentira, é só o governo querendo pegar mais </p>" +
+        "<p class='text-xl'> Seu bolso esvaziou, você se ferrou <br> Mas para que ligar <br> Aqui estamos no momento de festejar </p>" +
+        "<p class='text-xl'> Pula fogueira de São João <br> Olha o governo nos roubando então <br> Juros e taxas aumentando de montão </p>" +
+        "<p class='text-xl'> Um montante tão grande <br> Me lembra o baile ao luar <br> Na noite, cuidado ladrões irão te roubar </p>" +
+        "<p class='text-xl'> \"Punidos eles sairão?\" <br> Óbvio que não <br> Para que punir um menino sem educação? <br> Só porque ele acabou com a sua vida você quer o punir? </p>" +
+        "<p class='text-xl'> Que maldoso <br> Seu ser meticuloso <br> Claramente a culpa é sua <br> Por que veio festejar <br> Se da nossa cultura irá reclamar? </p>",
+    },
+    {
+      id: 20,
+      title: "Asa branca",
+      author: "Ana Julia da Silva",
+      description:
+        "<p class='text-xl'> O dia começa cedo por lá <br>A noite foi longa, dona Maria nem conseguiu o zoío pregá <br>Lembrando do tempo em que foi menina moça e arrudiava a roça <br>Com a bacia na cabeça, sob o sol escaldante <br>Ela pouco sorria, mas sempre ouvia Luiz Gonzaga <br>Por que tamanha judiação? Eu te asseguro, não chove não, viu? <br>Que eu voltarei, viu, meu coração <br>De repente via a alegria das crianças jogando chimbra ou futebol no campo areioso </p>" +
+        "<p class='text-xl'> Apesar de aperreio São João nunca foi cabra mole <br>Nunca deixou faltar alimento na mesa <br>Depois de véio veio para São Paulo <br>Descarregou as malas e para cortar o fitilho vermelho <br>Arrebatou uma peixeira da cintura <br>(eita, bixiga! Guarde isso, guarde! Se não o senhor se lasca todinho</p>" +
+        "<p class='text-xl'> Sardinha sargada, buxada, farinha di mandioca, <br>cuscuz, lanchinho, bolacha sete capas. <br>Tudo isso na feira de Arapiraca <br>Ah, Alagoas, mãe de tantos filhos, com belas <br>prais que prendem a atenção e causam emoção <br>Terra da vó Maria</p>",
+    },
+    {
+      id: 45,
+      title: "Meu sertão...",
+      author: "Rodrigo",
+      description:
+        "<p class='text-xl'> Lugar de terra seca, povo sofrido <br/> Lugar onde necessita de água <br/> Lugar onde se precisa de emprego <br/> Lugar onde todos se esforçam </p> <p class='text-xl'> Para todos terem o que comer <br/> Para todos terem um futuro <br/> Para todos viverem... <br/> Povo guerreiro e sofredor </p> <p class='text-xl'> Por passar por tanta dor <br/> E esbanjar mesmo assim... <br/> Um sorriso encantador em meio a tanta dificuldade </p>",
+    },
+    {
+      id: 35,
+      title: "Brasileira/o",
+      author: "Giovanna, Gabi Ribeiro e Eleandra",
+      description:
+        "<p class='text-xl'> O meu nome é Severino, <br/> não tenho outro de pia. <br/> Como há muitos Severinos, <br/> que é santo de romaria, <br/> deram então de me chamar <br/> Severino de Maria; <br/> mas como há muitos Severinos <br/> com mães chamadas Maria, <br/> fiquei sendo o da Maria <br/> do finado Zacarias. </p> <p class='text-xl'> Com olhos de cigana, oblíqua e dissimulada, <br/> Os olhos são importantes, mas só se vê bem com o coração: <br/> Sou alguém, uma mistura de dois, <br/> Preto e branco, <br/> com tiques nervosos para provar que fomos <br/> civilizados, contido e cordatos. <br/> Alguém que espera poder dizer: ouvi estrelas! <br/> Amai para entendê-las. <br/> E do amor, sou quem aspira que tal não seja imortal, mas seja infinito enquanto durar. </p> <p class='text-xl'> Se ainda não me reconhece, <br/> Eu sou uma eterna apaixonada por palavras, músicas e pessoas inteiras. <br/> Em mim não há nada meu. <br/> Em mim, não vejo começo nem fim. <br/> Sou aquilo que ninguém vê. <br/> Uma coleção de histórias, estórias, memórias, dores, delícias, pecados, bondades, tragédias, sucessos, sentimentos e pensamentos. <br/> Acho que se definir é se limitar. <br/> Sou um eterno parênteses em aberto, <br/> enquanto minha eternidade durar. <br/> Não será muito, <br/> então vou aproveitar, <br/> melhor é ser. </p> <p class='text-xl'> Assim esta poesia dedico <br/> Ao verme que primeiro roeu as frias carnes do meu cadáver, dedico como saudosa lembrança estas memórias póstumas. </p>",
     },
     {
       id: 32,
@@ -558,6 +461,16 @@ export default function App() {
         "falta de sorte é o que dizem alguns</p>",
     },
     {
+      id: 24,
+      title: "Norte Brasil, Brasil Norte",
+      author: "Samira",
+      description:
+        "<p class='text-xl'> Verde, amarelo e azul <br> Nesse Brasil jamais recuo <br> Tanto aqui para se ver <br> Que quem vê não vai esquecer, <br> Ah que norte mais bonito! <br> Quantos rios lindos. </p>" +
+        "<p class='text-xl'> Neles encontram muita fauna <br> Peixe-boi, tartaruga, boto cor-de-rosa <br> Se parar e olhar, é bem poderosa <br> Folclore diverso e diferente <br> Quem conhece é muita gente. </p>" +
+        "<p class='text-xl'> Lá no Norte tem muita festa também, <br> Como o Círio de Nazaré <br> E festa do Sairé. <br> Ouvi falar de dança? <br> Tem sim! As cirandas <br> Todo mundo dança <br> Adulto, idoso, jovem e criança. </p>" +
+        "<p class='text-xl'> Brasil incrível de viver <br> Tantas coisas para oferecer <br> Cuidado ao ir na floresta <br> Pode encontrar a boitatá </p>",
+    },
+    {
       id: 33,
       title: "Um norte tão cheio de vida, porém morto.",
       author: "Cristiane",
@@ -575,39 +488,203 @@ export default function App() {
         "<p class='text-xl'>Assim és tu, norte bravo, encantado,<br>Coração que pulsa em nosso Brasil,<br>Querido e sempre negligenciado,<br>Teu verde é esperança teu canto é bril.</p>",
     },
     {
-      id: 34,
-      title: "Sinfonias do Brasil",
-      author: "Maria Vitória, Marieli e Caroline Campos",
+      id: 15,
+      title: "Casa queimada",
+      author: "Lara Sterzk",
       description:
-        "<p class='text-xl'>Toda diversidade dentro de um som<br>" +
-        "Cada cantiga, um tom<br>" +
-        "Gerando dentro de notas<br>" +
-        "Uma orquestra triunfal<br>" +
-        "Uns acham meio banal<br>" +
-        "Mas tocam no rádio<br>" +
-        "ou em qualquer local</p>" +
-        "<p class='text-xl'>A garota que passou por Ipanema e fez Tom cantar<br>" +
-        "Jorge e Matheus viajaram no seu olhar<br>" +
-        "Tudo por causa do amor<br>" +
-        "Porque tamanha judiação, Gonzaga?<br>" +
-        "Uma legião - não necessariamente urbana - procura um tempo perdido<br>" +
-        "Em meio a tantas evidências vivem negando<br>" +
-        "Um tal de Djavan disse que te adora em tudo<br>" +
-        "Será eu exagerado como Cazuza?</p>" +
-        "<p class='text-xl'>Em Maresias vendo o mar, me fez imaginar<br>" +
-        "Um milhão de vagalumes<br>" +
-        "Mas foi a luz dos olhos meus, ao encontrar os olhos teus que fizeram sonhar<br>" +
-        "O meu amor por ti, Brasil<br>" +
-        "Porém em um futuro próximo você verá, como Toquinho declarou ao cantar<br>" +
-        "Uma terra que, enfim, descolorirá</p>",
+        "<p class='text-xl'> Terra sagrada <br> Que estou a pisar <br> Mata divina, que está a queimar <br> Terra vazia que estão a matar <br> O templo dos povos, está a cair <br> A casa deles, está a sumir </p>" +
+        "<p class='text-xl'> É tirado o que a eles pertence <br> Lhes é tirado até o que pensem <br> Em fogo e chamas vão lhes calar <br> Nas cinzas esquecidas as memórias o vento irá levar <br> Para a escuridão suas histórias guardar </p>" +
+        "<p class='text-xl'> Frutos de uma cruel opressão <br> Vítimas de uma impiedosa execução <br> E sem as leis vão ter que lutar <br> Pois a justiça em suas tribos não vai chegar </p>",
     },
     {
-      id: 35,
-      title: "Brasileira/o",
-      author: "Giovanna, Gabi Ribeiro e Eleandra",
+      id: 44,
+      title: "Momento Cultural I & II",
+      author: "Barba dos Bárbaros",
       description:
-        "<p class='text-xl'> O meu nome é Severino, <br/> não tenho outro de pia. <br/> Como há muitos Severinos, <br/> que é santo de romaria, <br/> deram então de me chamar <br/> Severino de Maria; <br/> mas como há muitos Severinos <br/> com mães chamadas Maria, <br/> fiquei sendo o da Maria <br/> do finado Zacarias. </p> <p class='text-xl'> Com olhos de cigana, oblíqua e dissimulada, <br/> Os olhos são importantes, mas só se vê bem com o coração: <br/> Sou alguém, uma mistura de dois, <br/> Preto e branco, <br/> com tiques nervosos para provar que fomos <br/> civilizados, contido e cordatos. <br/> Alguém que espera poder dizer: ouvi estrelas! <br/> Amai para entendê-las. <br/> E do amor, sou quem aspira que tal não seja imortal, mas seja infinito enquanto durar. </p> <p class='text-xl'> Se ainda não me reconhece, <br/> Eu sou uma eterna apaixonada por palavras, músicas e pessoas inteiras. <br/> Em mim não há nada meu. <br/> Em mim, não vejo começo nem fim. <br/> Sou aquilo que ninguém vê. <br/> Uma coleção de histórias, estórias, memórias, dores, delícias, pecados, bondades, tragédias, sucessos, sentimentos e pensamentos. <br/> Acho que se definir é se limitar. <br/> Sou um eterno parênteses em aberto, <br/> enquanto minha eternidade durar. <br/> Não será muito, <br/> então vou aproveitar, <br/> melhor é ser. </p> <p class='text-xl'> Assim esta poesia dedico <br/> Ao verme que primeiro roeu as frias carnes do meu cadáver, dedico como saudosa lembrança estas memórias póstumas. </p>",
+        "<p class='text-xl'><b class='underline'>PARTE 1 </b><br/> Temos dificuldade de provar <br/> Quem está certo ou errado <br/> O que há de errado em ficar <br/> Frente a frente? Lado a lado? <br/> Que demos as mãos para não ficarmos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Eu bato mesmo <br/> Bato todos em um liquidificador <br/> Puro suco de cabeça <br/> Essa mistura nos dá horror <br/> Se dermos as mãos, não ficaremos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Crença não se discute <br/> Não tem outro jeito <br/> Acabamos com a cidade <br/> Para acabar com o preconceito </p> <p class='text-xl'> O que seria de nós? <br/> Sem nossos pelos faciais? <br/> Como lutamos por igualdade? <br/> Se todos tivermos bigodes iguais? <br/> (Desiguais... desiguais... desiguais...)</p> <p class='text-xl'><b class='underline'>PARTE 2 </b><br/> Anjos e demônios disputam <br/> A nossa identidade <br/> Por uma melhor sociedade <br/> Para isso, nos amputam </p> <p class='text-xl'> Somos reféns do passado <br/> E, nele, construímos o futuro <br/> Somos muito imaturos <br/> E também somos vaporizados </p> <p class='text-xl'> Não se dirige mais a palavra <br/> Passaram por cima dela <br/> A discussão parou na pista <br/> Colidiram com a capela </p>",
     },
+    {
+      id: 14,
+      title: "Regiões do Brasil",
+      author: "Evaristo, João Luís e Luiz Felipe",
+      description:
+        "<p class='text-xl'> Nas terras de sol e mar, <br> Canta o povo a festejar, <br> Com danças e cores mil, <br> Celebrações do Brasil. </p>" +
+        "<p class='text-xl'> O Bumba meu boi do Maranhão, <br> Mistura fé dança e canção, <br> O povo canta com devoção, <br> Em noites de pura tradição. </p>" +
+        "<p class='text-xl'> No Rio o carnaval reluz, <br> Um mar de gente que seduz, <br> Com sambas e fantasias brilhantes, <br> No ritmo de batuques vibrantes. </p>" +
+        "<p class='text-xl'> Cada conto uma celebração, <br> Cada festa um coração, <br> Nas raízes do Brasil, o tesouro, <br> A cultura em festa, nosso maior ouro. </p>",
+    },
+    {
+      id: 3,
+      title: "Cores do Brasil",
+      author: "Vinícius e Cauã",
+      description:
+        "<p class='text-xl'> Nosso país <br/> Com nossos campos <br/> E nossas mais lindas flores <br/> Com nosso céu de azul anil </p> <p class='text-xl'> Com o verde da nossa bandeira <br/> E o dourado das nossas estrelas <br/> Com as nossas mais diversas cores <br/> Fazendo uma linda aquarela </p> <p class='text-xl'> Esse é o nosso país <br/> Com a mais bela paleta <br/> Dentre todas as bandeiras </p>",
+    },
+    {
+      id: 18,
+      title: "Ainda que tarde",
+      author: "Arthur Santana",
+      description:
+        "<p class='text-xl'> Trouxera paz ao povo Tupi <br> de repente, sumira daqui <br> O português a tornou nada <br> fora trocada por facas, machados e espelhos <br> meros aparelhos que alimentaram o colono </p>" +
+        "<p class='text-xl'> Escondeu-se <br> duzentos anos à sombra <br> Não vira o homem escravizar o homem, <br> sonhando que cortem, <br> as amarras da senzala </p>" +
+        "<p class='text-xl'> Revigorada, foi exploradora, rebelde <br> bandeirante e inconfidente <br> Fora razão de luta <br> de lanças, facões, bacamartes, canhões <br> de versos decassílabos, resenhas, artigos </p>" +
+        "<p class='text-xl'> Mas o colono não gostou <br> e fez a derrama, <br> Então fora trama de sangue e de ouro, <br> ataque duradouro que a ele resistiu </p>" +
+        "<p class='text-xl'> Mas não aparecera na bandeira <br> O que são Ordem e Progresso perto de seu poder? <br> Ela fora o porquê de Dom Pedro ficar! <br> fora razão de o inconfidente lutar! <br> para não acabar com a paz do futuro! </p>" +
+        "<p class='text-xl'> Hoje, <br> após o golpe do militar, <br> e o povo ser proibido de sonhar, <br> na Constituição reside plena <br> mas pena daqueles que dela se esquecem <br> pena daqueles que sequer a conhecem </p>" +
+        "<p class='text-xl'> Mas ela existe, <br> e pisou na terra <br> acompanhou a caravela <br> assistiu ao engenho <br> assistiu ao empenho do inconfidente lutando <br> que, sonhando, fizera um pedido </p>" +
+        "<p class='text-xl'> pediu que, <br> ainda que tarde, <br> chegasse ela, <br> a Liberdade </p>",
+    },
+    {
+      id: 5,
+      title: "Preconceito Cultural no Brasil",
+      author: "Vitória Masselco, Higor Fernandes, Ana Glória Pires",
+      description:
+        "<p class='text-xl'>Brasil de cores e sons mil,<br> Onde o preconceito ainda é vil.<br> Culturas se encontram, se colocam no ar,<br> Mas o olhar torto insiste em julgar.</p> <p class='text-xl'>Indígenas, pretos, suas vozes caladas,<br> Histórias ricas, tantas vezes negada.<br> Samba e maracatu, nossa identidade<br> Muitas vezes vistos com dualidade.</p> <p class='text-xl'>Mas na diversidade, a força brilha,<br> E no respeito, a esperança trilha.<br> Que o preconceito se desfaça, enfim,<br> E a riqueza cultural floresça sem fim.</p>",
+    },
+    {
+      id: 1,
+      title: "Ó, meu país",
+      author: "Caio, Maria Clara, Maria Laura e Rayca Souza",
+      description:
+        "<p class='text-xl'>Meu país tropical <br>De vegetação vasta e natural <br>Beleza fora do normal</p>" +
+        "<p class='text-xl'>Ó, meu país, <br>Que tanto me diz <br>Expressa tuas cores <br>E todos os seus valores</p>" +
+        "<p class='text-xl'>Me mostra tua cultura <br>De tantas bravuras <br>És tu, Brasil, <br>Terra adorada <br>Em tantas regiões é tão amada</p>" +
+        "<p class='text-xl'>Um semblante de alegria no olhar <br>Do seu povo nunca te faz chorar <br>Azul como teu mar <br>Águas claras são seu lar</p>" +
+        "<p class='text-xl'>Amarelo como teu ouro <br>Teu solo, teu tesouro <br>País de prosperidade, <br>De carisma e de felicidade</p>" +
+        "<p class='text-xl'>Amazônia sagrada <br>Tão querida e desejada <br>Minha mãe santa protege nossa nação <br>E aquece nosso coração</p>",
+    },
+    {
+      id: 2,
+      title: "Nordeste",
+      author: "Ana Julia da Silva",
+      description:
+        "<p class='text-xl'>O dia começa cedo por lá<br> A noite foi longa, dona Maria nem conseguiu o zoío pregá<br> Lembrando do tempo em que foi menina moça e arrudiava a roça<br> Com a bacia na cabeça, sob o sol escaldante</p> <p class='text-xl'>Ela pouco sorria, mas sempre ouvia Luiz Gonzaga<br> Porque tamanha judiação? Eu te asseguro, não chore não, viu?<br> Que eu voltarei, viu, meu coração<br> De repente via a alegria das crianças jogando chimbra ou futebol no campo areioso</p> <p class='text-xl'>Apesar do aperreio seu João nunca foi cabra mole<br> Nunca deixou faltar alimento na mesa<br> Depois de véio veio para São Paulo<br> Descarregou as malas e para cortar o fitilho vermelho<br> Arrebatou uma peixeira da cintura<br> (eita, bixiga! Guarde isso, guarde! Se não o senhor se lasca todinho)</p> <p class='text-xl'>Sardinha sargada, buxada, farinha di mandioca, cuscuz, lanchinho, bolacha sete capas.<br> Tudo isso na feira de Arapiraca</p> <p class='text-xl'>Ah, Alagoas, mãe de tantos filhos com belas praias que prendem a atenção e causam emoção<br> Terra da vó Maria</p>",
+    },
+    
+    
+    
+    
+    {
+      id: 7,
+      title: "Cicatrizes Culturais",
+      author: "Maria Laura de Castro",
+      description:
+        "<p class='text-xl'>Entre danças e ritmos que ecoam, histórias não contadas,<br> Lágrimas rolam, raízes marcadas pela dor e preconceito, em<br> Cada cultura um grito por respeito.</p> <p class='text-xl'>Pelo que carrega séculos de dor, mas também a beleza<br> De um amor sem fim, na diversidade, a verdadeira humanidade,<br> Celebrando cada cultura com igualdade.</p>",
+    },
+    
+    
+    
+    
+    {
+      id: 12,
+      title: "Sem título",
+      author: "Vinícius",
+      description:
+        "<p class='text-xl'>Brasil<br> Nosso país<br> Uma linda mistura de cores<br> Desbotando aos poucos<br> Como um pulmão tão verde<br> Se torna cinza?</p> <p class='text-xl'>E das nossas praias douradas<br> Querem tirar o brilho<br> Será que nosso Cristo zelaria por nós?<br> Ou em nossas festas de junho<br> Queimaremos mais alguém</p> <p class='text-xl'>Então adeus céu azul<br> Pois nesse mundo em descomunhão<br> Às estrelas não posso chegar<br> E os meus orixás, não posso encontrar</p>",
+    },
+    {
+      id: 13,
+      title: "Regiões do Brasil",
+      author: "Daniel",
+      description:
+        "<p class='text-xl'> Em cada canto do Brasil, um encanto <br>Rios, montanhas, mares em tom de canto <br>Culturas diversas, mosaico vibrante <br>De um povo que brilha, de alma gigante </p>" +
+        "<p class='text-xl'> No norte, a Amazônia, verde imensidão <br>Lendas e festas, ritmo do coração <br>O Boi-Bumbá dança, vida a pulsar <br>No Folclore encantado, histórias a contar </p>" +
+        "<p class='text-xl'> Nordeste, terra de sol e cor <br>Frevo, maracatu, carnaval e amor <br>Culinária rica, de sabor sem fim <br>Cacau, cuscuz, caruru, axé e tamborim </p>" +
+        "<p class='text-xl'> O Centro-Oeste é festa no cerrado <br>Festas juninas, o sertão celebrado <br>Pantanal reflete o céu estrelado <br>Boiadeiros, peões, folia do reinado </p>" +
+        "<p class='text-xl'> No Sudeste, modernidade e tradição <br>Samba, bossa nova, cultura em profusão <br>Minas Gerais, com sua história e pão de queijo <br>São Paulo e Rio, no ritmo do desejo </p>" +
+        "<p class='text-xl'> No Sul, tradições que nos abraçam <br>Chimarrão e dança, as raízes que enlaçam <br>Festas de colheita, sotaque de chão <br>Culturas gaúchas, catarinense, paranaense na mão </p>",
+    },
+    
+    
+    
+    {
+      id: 17,
+      title: "Brasil, terra de encanto ou será que não?",
+      author: "Ana Heloísa",
+      description:
+        "<p class='text-xl'> <b>Brasil, terra de encanto ou será que não? </b> </p>" +
+        "<p class='text-xl'> Brasil, terra de encanto e beleza sem igual, <br> Das praias douradas ao verde do sertão, <br> Tua cultura é rica, nossa inspiração, nossas raízes, <br> Histórias que nos lembram da liberdade e soberania do nosso Brasil, nossa terra de encanto. </p>" +
+        "<p class='text-xl'> Como é bela nossa Pátria, tem riquezas e belezas mil, nas suas matas minha gente é o Brasil. </p>" +
+        "<p class='text-xl'> Mas oh, pobre Indiozinho... <br> Indiozinho nu na mata <br> Arco e flecha em sua mão <br> Foi caçar seu alimento, indiozinho brincalhão <br> Indiozinho tão valente foi na vida se embrenhar <br> Curioso esse menino indiozinho a brincar </p>" +
+        "<p class='text-xl'> Indiozinho ficou triste <br> Quando viu tudo a queimar <br> Sua tribo, sentiu fome <br> Vi um índio a chorar. </p>",
+    },
+    
+    
+    
+    
+    {
+      id: 22,
+      title: "Periferia",
+      author: "Ana Julia",
+      description:
+        "<p class='text-xl'> Marginalização <br> Conhecimento <br> Pertencimento <br> Democratização </p>" +
+        "<p class='text-xl'> No Sudeste do país, <br> Canindé-zona norte, Serrana Fluminense, Beira Mar <br> Pena do que o pobre há de comer o que encontrar no lixo ou então dormir com fome. Você já viu um cão quando quer segurar a cauda com a boca e fica rodando sem pegá-la? </p>" +
+        "<p class='text-xl'> Longe dos centros urbanos não há o que fazer, <br> Escola vazia, esperança quase não se via. Como trazê-la à existência? Entidades representantes da cultura, onde estão para propiciar com abrangência o ensino de qualidade para então chamado \"favelado\"? </p>" +
+        "<p class='text-xl'> Comunidades sem cuidado, onde está a sua identidade? </p>",
+    },
+    {
+      id: 23,
+      title: "Oh, querido Norte",
+      author: "Gabrielly",
+      description:
+        "<p class='text-xl'> No Norte do Brasil, onde o rio canta, <br> Corre a vida pulsante na imensidão, <br> Entre verdes florestas que se agigantam, <br> Brota a alma da nossa nação. </p>" +
+        "<p class='text-xl'> É na dança do carimbó que vejo, <br> O sorriso e o suor do povo forte, <br> Que no embalo da vida, sem pejo, <br> Transforma cada dia em sorte. </p>" +
+        "<p class='text-xl'> Açaí e cupuaçu, sabores divinos, <br> Riquezas da terra, presente do chão, <br> No tacacá, tucupi e pratos genuínos, <br> Reside a essência e a tradição. </p>" +
+        "<p class='text-xl'> Boto cor-de-rosa, lendas do folclore, <br> Histórias que o rio carrega ao mar, <br> O povo do Norte em versos implore, <br> Que suas raízes jamais vão se apagar. </p>" +
+        "<p class='text-xl'> Nas palafitas à beira do igaparé, <br> A vida segue seu ritmo sem pressa, <br> É o amor pela terra que se vê, <br> No canto da mata que nunca cessa. </p>" +
+        "<p class='text-xl'> Oh, querido Norte, berço de riqueza, <br> Cultura viva em cada canto e cor, <br> Que tua história ressoe com certeza, <br> Como hino eterno de força e valor. </p>",
+    },
+    
+    {
+      id: 25,
+      title: "Dance meu Brasil!",
+      author: "Julia Cristina",
+      description:
+        "<p class='text-xl'> Brasil com sua vasta imensidão <br> Que tens suas diversas culturas </p>" +
+        "<p class='text-xl'> Uns se animam em junho, época de festa junina! <br> Que vem junto da quadrilha e lá vem os caipiras <br> Lá na Bahia o samba se desenrola em uma roda <br> Com música ressoando e o pessoal acompanhando </p>" +
+        "<p class='text-xl'> Pro norte bumba meu boi já vem chegando <br> Com sua representação de várias culturas <br> Desde santos aos orixás </p>" +
+        "<p class='text-xl'> No centro-oeste a catira se começa <br> Com seus catireiros se ajuntando em filas <br> E logo o chupim se começa <br> Com os casais se ajuntando para a festa </p>" +
+        "<p class='text-xl'> Já no sudeste inicia-se o jongo <br> Seus participantes em uma roda <br> Cantando e celebrando suas culturas <br> O pessoal da dança do mineiro pau <br> Que com seus bastões vão os batendo no chão </p>" +
+        "<p class='text-xl'> No sul na chula tem que se manter o ritmo <br> Se quiser vencer na dança <br> A vaneira se expressando artisticamente <br> Com as pessoas do campo celebrando <br> Trazendo a sua cultura à tona </p>" +
+        "<p class='text-xl'> E ainda pensar que há tantas mais <br> Neste nosso brasilzão! </p>",
+    },
+    {
+      id: 26,
+      title: "Histórias de infância",
+      author: "João Paulo e Kerolyn Bazza",
+      description:
+        "<p class='text-xl'> Cativados pela nossa infância <br> Retomados das antigas lembranças. <br> Contadas nas rodas de conversa <br> Escutávamos histórias diversas. </p>" +
+        "<p class='text-xl'> Reforçadas pelos desenhos <br> Influenciavam nosso pensamento. <br> Ensinadas pela professora <br> Adquirimos o conhecimento </p>" +
+        "<p class='text-xl'> A Cuca, o Saci, o Lobo, <br> Iara, Vitória Régia e o Boto. <br> Os ícones da nossa infância <br> Enriquecendo o folclore brasileiro </p>" +
+        "<p class='text-xl'> Comemorado e lembrado <br> Com um dia especialmente para ele <br> Nossa cultura amada <br> Folclore, do povo brasileiro. </p>",
+    },
+    
+    {
+      id: 28,
+      title: "Noite empolgada",
+      author: "João Paulo e Kerolyn Bazza",
+      description:
+        "<p class='text-xl'> Bandeiras coloridas, milho e muita dança <br> Quadrilha ensaiada, casais entusiasmados. <br> A luz da fogueira ilumina a noite, <br> E também o sorriso das crianças </p>" +
+        "<p class='text-xl'> São João exala no lugar <br> Milho quente contagia o paladar <br> Achocolatado sempre prestigiado <br> Assim é a amada festa junina </p>" +
+        "<p class='text-xl'> Comemorada e esperada <br> Data e hora dedicada <br> O povo brasileiro ansioso aguarda <br> Para o início dessa noite empolgada. </p>" +
+        "<p class='text-xl'> Desde a infância ensinada e adorada. <br> Gravada no coração dos cidadãos <br> E na cultura da nação </p>",
+    },
+    {
+      id: 29,
+      title: "Cheiros e sabores",
+      author: "João Paulo e Kerolyn Bazza",
+      description:
+        "<p class='text-xl'> Mistura de sabores, <br> Foi assim que a culinária brasileira <br> Nos ensinou <br> Com formatos e cores </p>" +
+        "<p class='text-xl'> No paladar mistura de sentimentos, <br> Lembranças e sensações </p>" +
+        "<p class='text-xl'> E no olfato... <br> O cheirinho da feijoada da vovó <br> Que pela casa exala <br> O aroma suave do louro fervilhando <br> E o toucinho cozinhando </p>" +
+        "<p class='text-xl'> Esse é o paladar do povo brasileiro <br> Que carrega em suas veias com orgulho <br> Sua culinária, herança de gerações </p>",
+    },
+    
+    
+    
+    
+    
+    
     {
       id: 36,
       title: "Sem titulo",
@@ -629,13 +706,7 @@ export default function App() {
       description:
         "<p class='text-xl'> Brasil, um sonho intenso, um raio vivido <br/> De cores e de sabores, à terra desce <br/> Se em teu formoso céu, risonho e límpido <br/> O estrelado da bandeira resplandece </p> <p class='text-xl'> A música, a dança, a culinária, <br/> Costumes, crenças, folclore popular <br/> São riquezas de uma terra tão diversa, <br/> Que encanta o mundo com seu jeito de encantar. </p> <p class='text-xl'> Mas no palco dessa terra, onde a riqueza é abundante <br/> Políticos em palácios, promessas vazias <br/> Surge um véu de injustiça, um contraste gritante <br/> Enquanto nas favelas, fome e angústias sombrias </p> <p class='text-xl'> Valorizar a cultura é preservar a alma, <br/> Uma pátria tão diversa, merece mais que divisão <br/> Mas é preciso justiça, para que a paz nos acalma <br/> Sonhamos com um futuro de igualdade e união. </p>",
     },
-    {
-      id: 39,
-      title: "As praias",
-      author: "Raquel Morgado",
-      description:
-        "<p class='text-xl'> As famílias e a alegria, <br/> O amor e a harmonia, <br/> Me sinto agradecida, <br/> Por ter essa vida! </p> <p class='text-xl'> Uma água de coco para refrescar, <br/> Ou um milho quente para esquentar? <br/> Açaí e Cupuaçu, <br/> Litoral Norte ou litoral Sul? </p> <p class='text-xl'> Areia no meu pé, <br/> E na minha cabeça um boné, <br/> À frente vejo o mar, <br/> Com suas ondas a quebrar. </p> <p class='text-xl'> Assim é meu Brasil, meu doce mar, <br/> Cheio de belezas, de praias, de ondas, de amar! </p>",
-    },
+    
     {
       id: 40,
       title: "O país anônimo",
@@ -664,33 +735,16 @@ export default function App() {
       description:
         "<p class='text-xl'> Aqui te fazemos <br/> Sem verdadeiramente conhecermos <br/> As raízes de seus remos <br/> Sem muito entendermos </p> <p class='text-xl'> Tanta beleza, seu capixaba <br/> Ontem passei com a boiada <br/> Fui pra Pindamonhangaba <br/> Uai, tô devendo é nada <br/> Tu é bicho doido, cabra </p> <p class='text-xl'> Chegando no sertão <br/> Lembrei de meu brasão <br/> Que dor até então <br/> Essa seca tá pior que porão <br/> Ô chuva, sempre tão clamada <br/> Traz de volta minha namorada <br/> Minha esperança de ver a terra bem tratada <br/> Fogo e sanfona, <br/> Virgem Maria é minha dona </p> <p class='text-xl'> No azul de seu mar me perdi <br/> Perto d'aquele riozinho nasci <br/> Água doce bebi <br/> Agora não sei como sair daqui </p> <p class='text-xl'> Tanta injustiça <br/> Tanta imundícia <br/> Tanta malícia <br/> Traz de volta minha inocência, em primeiro lugar, ela era minha <br/> De quando ainda existia fantasia </p> <p class='text-xl'> Tão variado, <br/> Desde cacheado <br/> À alisado <br/> Desde o povo escravo <br/> À classe bacana <br/> Desde povo amarelo <br/> Até quem não se ama <br/> Foge Copacabana <br/> Tão roban' muito essa semana </p> <p class='text-xl'> Tem como incrementar? <br/> Então me dá seu lugar! </p>",
     },
+    
+    
+    
+    
     {
-      id: 44,
-      title: "Momento Cultural I & II",
-      author: "Barba dos Bárbaros",
+      id: 48,
+      title: "Injustiça latente",
+      author: "Autor desconhecido",
       description:
-        "<p class='text-xl'><b class='underline'>PARTE 1 </b><br/> Temos dificuldade de provar <br/> Quem está certo ou errado <br/> O que há de errado em ficar <br/> Frente a frente? Lado a lado? <br/> Que demos as mãos para não ficarmos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Eu bato mesmo <br/> Bato todos em um liquidificador <br/> Puro suco de cabeça <br/> Essa mistura nos dá horror <br/> Se dermos as mãos, não ficaremos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Crença não se discute <br/> Não tem outro jeito <br/> Acabamos com a cidade <br/> Para acabar com o preconceito </p> <p class='text-xl'> O que seria de nós? <br/> Sem nossos pelos faciais? <br/> Como lutamos por igualdade? <br/> Se todos tivermos bigodes iguais? <br/> (Desiguais... desiguais... desiguais...)</p> <p class='text-xl'><b class='underline'>PARTE 2 </b><br/> Anjos e demônios disputam <br/> A nossa identidade <br/> Por uma melhor sociedade <br/> Para isso, nos amputam </p> <p class='text-xl'> Somos reféns do passado <br/> E, nele, construímos o futuro <br/> Somos muito imaturos <br/> E também somos vaporizados </p> <p class='text-xl'> Não se dirige mais a palavra <br/> Passaram por cima dela <br/> A discussão parou na pista <br/> Colidiram com a capela </p>",
-    },
-    {
-      id: 45,
-      title: "Meu sertão...",
-      author: "Rodrigo",
-      description:
-        "<p class='text-xl'> Lugar de terra seca, povo sofrido <br/> Lugar onde necessita de água <br/> Lugar onde se precisa de emprego <br/> Lugar onde todos se esforçam </p> <p class='text-xl'> Para todos terem o que comer <br/> Para todos terem um futuro <br/> Para todos viverem... <br/> Povo guerreiro e sofredor </p> <p class='text-xl'> Por passar por tanta dor <br/> E esbanjar mesmo assim... <br/> Um sorriso encantador em meio a tanta dificuldade </p>",
-    },
-    {
-      id: 46,
-      title: "Bruno",
-      author: "Bruno",
-      description:
-        "<p class='text-xl'> em nossa cultura <br/> essa luta é minha e sua <br/> mesmo que nao seja mutua <br/> veras que um filho teu nao foge a luta </p> <p class='text-xl'> esqueceram do hip hop <br/> na timeline do tiktok <br/> demonizam essa parte <br/> apenas falando de porte </p> <p class='text-xl'> onde só falam da morte <br/> esqueceram a cultura <br/> pois na zona norte <br/> temos estrutura </p> <p class='text-xl'> hoje só quero sentir o vento de sp <br/> selva de concreto e pessoas a mercê <br/> quero sonhar o que vivi <br/> às vezes sonhando muito mais do que podemos ter </p> <p class='text-xl'> ignorados pelo estado <br/> mas favela e cultura andam lado a lado <br/> imitaram tanto os gringos <br/> temos o nosso brooklyn em São Paulo </p> <p class='text-xl'> temos o rap e o hiphop <br/> ensinam mais que o cantor de pop <br/> no skate e o grafite só pra mídia ver <br/> união e cultura ainda existem em SP </p>",
-    },
-    {
-      id: 47,
-      title: "Amado Centro-oeste",
-      author: "Gabrielly Lima",
-      description:
-        "<p class='text-xl'> Centro-Oeste, terra rica, cheia de encantos mil, <br/> No coração do nosso amado Brasil. <br/> Teu cerrado vasto, de beleza singular, <br/> Abriga vidas, histórias, em cada lugar. </p> <p class='text-xl'> Brasília, capital de formas audazes, <br/> Símbolo de futuro, sonhos e bases. <br/> Goiás, com sua música, cultura e saber, <br/> E o povo hospitaleiro, que sabe acolher. </p> <p class='text-xl'> Mato Grosso, gigante, de terras sem fim, <br/> Onde o Pantanal se estende, sublime jardim. <br/> Mato Grosso do Sul, de paisagens encantadas, <br/> Com suas águas cristalinas e serras elevadas. </p> <p class='text-xl'> Rios que correm, levando vida e canção, <br/> Natureza exuberante, fonte de inspiração. <br/> Chapadas que se erguem, testemunhas do tempo, <br/> Guardam segredos antigos, histórias ao vento. </p> <p class='text-xl'> Terra de bravos, de gente que faz, <br/> Centro-Oeste querido, tu és muito mais. <br/> És o celeiro do país, a força que alimenta, <br/> Orgulho de um povo, que em ti se sustenta. </p> <p class='text-xl'> Centro-Oeste amado, de riqueza e tradição, <br/> Teu valor é imenso, bate forte o coração. <br/> No teu solo fértil, o futuro se planta, <br/> E em cada canto, tua essência encanta. </p>",
+        "<p class='text-xl'> Brasil, gigante adormecido, em teu vasto rincão, <br/> Onde a esperança brilha, mas sofre o coração. <br/> Terra de mil encantos, cultura e tradição, <br/> Vê-se, na política, a dor da corrupção. </p> <p class='text-xl'> Promessas vazias, discursos eloquentes, <br/> Mas na prática, o povo vive de migalhas pendentes. <br/> Desigualdade imensa, injustiça latente, <br/> O clamor por mudança ecoa, insistente. </p> <p class='text-xl'> Governos que passam, sem deixar solução, <br/> Investem no próprio bolso, esquecem da nação. <br/> A saúde precária, educação negligenciada, <br/> Infraestrutura falha, esperança suprimida. </p> <p class='text-xl'> Florestas queimadas, em nome do progresso, <br/> Enquanto líderes cegos seguem o mesmo processo. <br/> Riquezas naturais vendidas a quem paga mais, <br/> O futuro comprometido, por ações irracionais. </p> <p class='text-xl'> Brasil, de gente forte, de coração valente, <br/> Enfrenta a tirania de um poder incoerente. <br/> No Congresso, disputas, conchavos, traições, <br/> Esquecem do povo, de suas aspirações. </p> <p class='text-xl'> Mas ainda há esperança, no brilho do olhar, <br/> De quem luta diariamente, de quem sabe sonhar. <br/> Que o amanhã traga líderes de nova visão, <br/> Para erguer o Brasil, com ética e união. </p> <p class='text-xl'> Brasil, querido Brasil, que tuas dores sejam sanadas, <br/> Que a política seja justa, com promessas honradas. <br/> Um país de igualdade, onde a paz possa reinar, <br/> E cada cidadão tenha motivos para amar. </p>",
     },
     {
       id: 48,

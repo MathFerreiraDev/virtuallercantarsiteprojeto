@@ -71,7 +71,7 @@ export default function App() {
     {
       id: 6,
       title: "<b>[19:48-19:51]</b> MOCHILEIROS - REGIÃO SUDESTE",
-      description: "<p><b>Ato II:</b> Durante suas aventuras de juventude, José também explorou a <b>Região Sudeste</b>, onde lá, conhece Waleska, uma moradora de uma comunidade local</p>",
+      description: "<p><b>Ato II:</b> Durante seu período como caminhoneiro, José também explorou a <b>Região Sudeste</b>, onde lá, conhece Waleska, uma moradora de uma comunidade local</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -99,7 +99,7 @@ export default function App() {
     {
       id: 10,
       title: "<b>[20:18-20:21]</b> MOCHILEIROS - REGIÃO NORTE",
-      description: "<p><b>Ato IV:</b> Após um período, ainda em sua juventude, José viaja até a <b>Região Norte</b> para acompanhar de pertinho o Festival de Parintins, onde acaba por conhecer Tamara e Alice, torcedoras de cada boi</p>",
+      description: "<p><b>Ato IV:</b> Durante mais uma de suas entregas, ainda em sua juventude, José viaja até a <b>Região Norte</b> para acompanhar de pertinho o Festival de Parintins, onde acaba por conhecer Tamara e Alice, torcedoras de cada boi</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -196,57 +196,57 @@ export default function App() {
   const dataListProducoes = [
     {
       id: 1,
-      src: "Lw4gX1zA7NU?si=4fd-tgNXe-B3gK2M",
-      title: "Origem do MPB brasileiro",
-      description: "Vídeo documentário que descreve a trajetória do estilo musical MPB e como sua história se desenvolveu em nosso país.",
-    },
-    {
-      id: 2,
-      src: "A_55ZuBf_qg?si=UyalmruEJXmWHmGx",
-      title: "Aqui é o Brasil - Região Sudeste",
-      description: "Um vídeo abordando curiosidades, cultura, fauna, história e gastronomia da região.",
-    },
-    {
-      id: 3,
-      src: "py8JHVRWGXw?si=f5vIC0VB9STF2zwy",
-      title: "O país do futebol!",
-      description: "O vídeo ressalta as conquistas e marcos feitos pela nossa seleção, e como o futebol se estabeleceu e se fixou a cultura e identidade nacional.",
-    },
-    {
-      id: 4,
-      src: "0ZkaG9R76u4?si=N-lZdZR-ivhdoNbS",
-      title: "Cultura do folclore brasileiro",
-      description: "Vídeo narrando as características das lendas existentes, que se perpetuaram por todo o território do nosso país.",
-    },
-    {
-      id: 5,
       src: "UoBNxKYjQaU?si=7HOZRbXSGFS0W9Id",
       title: "A identidade do Brasil",
       description: "Vídeo descrevendo os diferentes estados existentes em nosso país, e como eles constroem a nossa cultura e realidade.",
     },
     {
-      id: 6,
+      id: 2,
       src: "u6tYVWEhQBY?si=3bdb7tv7XCHSjOSH",
       title: "As belezas do Sul!",
       description: "O vídeo destaca vários aspectos da fauna, flora, paisagens e gastronomia da Região Sul, e como possui elementos únicos em seu território.",
     },
     {
-      id: 7,
+      id: 3,
+      src: "A_55ZuBf_qg?si=UyalmruEJXmWHmGx",
+      title: "Aqui é o Brasil - Região Sudeste",
+      description: "Um vídeo abordando curiosidades, cultura, fauna, história e gastronomia da região.",
+    },
+    {
+      id: 4,
       src: "zbYf1xEIY1k?si=zEBg5nO2TgQNehGy",
       title: "Ó grande Região Norte!",
       description: "O vídeo destaca aspectos da cultura de estados concentrados na porção Norte do país, e como ela possui suas próprias influências e histórias.",
     },
     {
-      id: 8,
-      src: "CxeahS7teSI?si=wEe4kl4nyJqJQ62i",
-      title: "As festas brasileiras",
-      description: "O vídeo registra algumas das festas típicas de nosso país, e quais suas histórias que as encaixaram em nossa cultura.",
-    },
-    {
-      id: 9,
+      id: 5,
       src: "GfHtzmo689Y?si=EI-9ELvVg2I70XXl",
       title: "O nosso Nordeste!",
       description: "Um vídeo ressaltando e relevando características e histórias presentes na cultura nordestina.",
+    },
+    {
+      id: 6,
+      src: "Lw4gX1zA7NU?si=4fd-tgNXe-B3gK2M",
+      title: "Origem do MPB brasileiro",
+      description: "Vídeo documentário que descreve a trajetória do estilo musical MPB e como sua história se desenvolveu em nosso país.",
+    },
+    {
+      id: 7,
+      src: "py8JHVRWGXw?si=f5vIC0VB9STF2zwy",
+      title: "O país do futebol!",
+      description: "O vídeo ressalta as conquistas e marcos feitos pela nossa seleção, e como o futebol se estabeleceu e se fixou a cultura e identidade nacional.",
+    },
+    {
+      id: 8,
+      src: "0ZkaG9R76u4?si=N-lZdZR-ivhdoNbS",
+      title: "Cultura do folclore brasileiro",
+      description: "Vídeo narrando as características das lendas existentes, que se perpetuaram por todo o território do nosso país.",
+    },
+    {
+      id: 9,
+      src: "CxeahS7teSI?si=wEe4kl4nyJqJQ62i",
+      title: "As festas brasileiras",
+      description: "O vídeo registra algumas das festas típicas de nosso país, e quais suas histórias que as encaixaram em nossa cultura.",
     },
   ];
   const dataListPoemas = [
@@ -384,7 +384,7 @@ export default function App() {
     },
     {
       id: 14,
-      title: "Bruno",
+      title: "Entre ruas e prédios",
       author: "Bruno",
       description:
         "<p class='text-xl'> em nossa cultura <br/> essa luta é minha e sua <br/> mesmo que nao seja mutua <br/> veras que um filho teu nao foge a luta </p> <p class='text-xl'> esqueceram do hip hop <br/> na timeline do tiktok <br/> demonizam essa parte <br/> apenas falando de porte </p> <p class='text-xl'> onde só falam da morte <br/> esqueceram a cultura <br/> pois na zona norte <br/> temos estrutura </p> <p class='text-xl'> hoje só quero sentir o vento de sp <br/> selva de concreto e pessoas a mercê <br/> quero sonhar o que vivi <br/> às vezes sonhando muito mais do que podemos ter </p> <p class='text-xl'> ignorados pelo estado <br/> mas favela e cultura andam lado a lado <br/> imitaram tanto os gringos <br/> temos o nosso brooklyn em São Paulo </p> <p class='text-xl'> temos o rap e o hiphop <br/> ensinam mais que o cantor de pop <br/> no skate e o grafite só pra mídia ver <br/> união e cultura ainda existem em SP </p>",
@@ -427,8 +427,51 @@ export default function App() {
         "<p class='text-xl'> \"Punidos eles sairão?\" <br> Óbvio que não <br> Para que punir um menino sem educação? <br> Só porque ele acabou com a sua vida você quer o punir? </p>" +
         "<p class='text-xl'> Que maldoso <br> Seu ser meticuloso <br> Claramente a culpa é sua <br> Por que veio festejar <br> Se da nossa cultura irá reclamar? </p>",
     },
-    {
+     {
       id: 19,
+      title: "Norte Brasil, Brasil Norte",
+      author: "Samira",
+      description:
+        "<p class='text-xl'> Verde, amarelo e azul <br> Nesse Brasil jamais recuo <br> Tanto aqui para se ver <br> Que quem vê não vai esquecer, <br> Ah que norte mais bonito! <br> Quantos rios lindos. </p>" +
+        "<p class='text-xl'> Neles encontram muita fauna <br> Peixe-boi, tartaruga, boto cor-de-rosa <br> Se parar e olhar, é bem poderosa <br> Folclore diverso e diferente <br> Quem conhece é muita gente. </p>" +
+        "<p class='text-xl'> Lá no Norte tem muita festa também, <br> Como o Círio de Nazaré <br> E festa do Sairé. <br> Ouvi falar de dança? <br> Tem sim! As cirandas <br> Todo mundo dança <br> Adulto, idoso, jovem e criança. </p>" +
+        "<p class='text-xl'> Brasil incrível de viver <br> Tantas coisas para oferecer <br> Cuidado ao ir na floresta <br> Pode encontrar a boitatá </p>",
+    },
+    {
+      id: 20,
+      title: "Um norte tão cheio de vida, porém morto.",
+      author: "Cristiane",
+      description:
+        "<p class='text-xl'>Tão bela e plena,<br>Região diferente, cheia de cultura e gente, devia ser enaltecida,<br>Essa região que a natureza conserva,<br>Mas que horror, que injúria ao que meu povo e minha cultura foi submetida.</p>" +
+        "<p class='text-xl'>Tão grande e importante,<br>E mesmo assim desvalorizada,<br>Vítima de abuso constante,<br>Região tão sofrida e assim desmotivada.</p>" +
+        "<p class='text-xl'>Posso parecer hostil,<br>Mas é da paz que paira sobre mim é que fui ungida,<br>Região norte do Brasil,<br>Que pela cultura xenofóbica foi atingida.</p>" +
+        "<p class='text-xl'>Oh, floresta amazônica, tão viva e rica,<br>Mas também tão morta e sobrecarregada,<br>De incêndio em desmatamento de uma euforia és coberta,<br>Uma pena que não podes deixastes sedes retórica.</p>" +
+        "<p class='text-xl'>Se de tão repleta de vida foste declarada o pulmão do mundo,<br>Então por quê deixaste sedes explorada?<br>Né pergunto, boitatá, curupira, protetores da floresta, por que se escondem em um buraco tão fundo,<br>Se está morrendo a nossa floresta tão abençoada?</p>" +
+        "<p class='text-xl'>Tão grande e perfeita,<br>Tão linda e cheia de riqueza,<br>Mas tão ignorada por teu país,<br>Por que será que teu presidente não te quis?</p>" +
+        "<p class='text-xl'>De protetores da floresta a boto que é pai,<br>Teu folclore é repleto de peça,<br>Curupira, boitatá, boto-cor-de-rosa e muitas criaturas sensacionais,<br>Nessa nossa cultura que é grande a beça.</p>" +
+        "<p class='text-xl'>Aqui também existe religião bem divergentes,<br>Mas por quê o povo do teu país julga tanto a tua religião?<br>Se de cá me parece algo muito incompetente,<br>Já que a regra de qualquer religião é amar com o coração!</p>" +
+        "<p class='text-xl'>Do carimbó ao congo,<br>Do calypso ao marujada,<br>Se surpreenderá quando começarem a tocar o bongo,<br>E ainda mais surpresa terá quando meu povo começar a dança.</p>" +
+        "<p class='text-xl'>Satisfeito a nação que te enaltece,<br>E ao mesmo tempo ignora teu valor,<br>Como orgulho ao mundo te oferece,<br>Mas te maltrata, te nega amor.</p>" +
+        "<p class='text-xl'>Assim és tu, norte bravo, encantado,<br>Coração que pulsa em nosso Brasil,<br>Querido e sempre negligenciado,<br>Teu verde é esperança teu canto é bril.</p>",
+    },
+    {
+      id: 21,
+      title: "Casa queimada",
+      author: "Lara Sterzk",
+      description:
+        "<p class='text-xl'> Terra sagrada <br> Que estou a pisar <br> Mata divina, que está a queimar <br> Terra vazia que estão a matar <br> O templo dos povos, está a cair <br> A casa deles, está a sumir </p>" +
+        "<p class='text-xl'> É tirado o que a eles pertence <br> Lhes é tirado até o que pensem <br> Em fogo e chamas vão lhes calar <br> Nas cinzas esquecidas as memórias o vento irá levar <br> Para a escuridão suas histórias guardar </p>" +
+        "<p class='text-xl'> Frutos de uma cruel opressão <br> Vítimas de uma impiedosa execução <br> E sem as leis vão ter que lutar <br> Pois a justiça em suas tribos não vai chegar </p>",
+    },
+    {
+      id: 22,
+      title: "Momento Cultural I & II",
+      author: "Barba dos Bárbaros",
+      description:
+        "<p class='text-xl'><b class='underline'>PARTE 1 </b><br/> Temos dificuldade de provar <br/> Quem está certo ou errado <br/> O que há de errado em ficar <br/> Frente a frente? Lado a lado? <br/> Que demos as mãos para não ficarmos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Eu bato mesmo <br/> Bato todos em um liquidificador <br/> Puro suco de cabeça <br/> Essa mistura nos dá horror <br/> Se dermos as mãos, não ficaremos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Crença não se discute <br/> Não tem outro jeito <br/> Acabamos com a cidade <br/> Para acabar com o preconceito </p> <p class='text-xl'> O que seria de nós? <br/> Sem nossos pelos faciais? <br/> Como lutamos por igualdade? <br/> Se todos tivermos bigodes iguais? <br/> (Desiguais... desiguais... desiguais...)</p> <p class='text-xl'><b class='underline'>PARTE 2 </b><br/> Anjos e demônios disputam <br/> A nossa identidade <br/> Por uma melhor sociedade <br/> Para isso, nos amputam </p> <p class='text-xl'> Somos reféns do passado <br/> E, nele, construímos o futuro <br/> Somos muito imaturos <br/> E também somos vaporizados </p> <p class='text-xl'> Não se dirige mais a palavra <br/> Passaram por cima dela <br/> A discussão parou na pista <br/> Colidiram com a capela </p>",
+    },
+    {
+      id: 23,
       title: "Asa branca",
       author: "Ana Julia da Silva",
       description:
@@ -437,21 +480,21 @@ export default function App() {
         "<p class='text-xl'> Sardinha sargada, buxada, farinha di mandioca, <br>cuscuz, lanchinho, bolacha sete capas. <br>Tudo isso na feira de Arapiraca <br>Ah, Alagoas, mãe de tantos filhos, com belas <br>prais que prendem a atenção e causam emoção <br>Terra da vó Maria</p>",
     },
     {
-      id: 20,
+      id: 24,
       title: "Meu sertão...",
       author: "Rodrigo",
       description:
         "<p class='text-xl'> Lugar de terra seca, povo sofrido <br/> Lugar onde necessita de água <br/> Lugar onde se precisa de emprego <br/> Lugar onde todos se esforçam </p> <p class='text-xl'> Para todos terem o que comer <br/> Para todos terem um futuro <br/> Para todos viverem... <br/> Povo guerreiro e sofredor </p> <p class='text-xl'> Por passar por tanta dor <br/> E esbanjar mesmo assim... <br/> Um sorriso encantador em meio a tanta dificuldade </p>",
     },
     {
-      id: 21,
+      id: 25,
       title: "Brasileira/o",
       author: "Giovanna, Gabi Ribeiro e Eleandra",
       description:
         "<p class='text-xl'> O meu nome é Severino, <br/> não tenho outro de pia. <br/> Como há muitos Severinos, <br/> que é santo de romaria, <br/> deram então de me chamar <br/> Severino de Maria; <br/> mas como há muitos Severinos <br/> com mães chamadas Maria, <br/> fiquei sendo o da Maria <br/> do finado Zacarias. </p> <p class='text-xl'> Com olhos de cigana, oblíqua e dissimulada, <br/> Os olhos são importantes, mas só se vê bem com o coração: <br/> Sou alguém, uma mistura de dois, <br/> Preto e branco, <br/> com tiques nervosos para provar que fomos <br/> civilizados, contido e cordatos. <br/> Alguém que espera poder dizer: ouvi estrelas! <br/> Amai para entendê-las. <br/> E do amor, sou quem aspira que tal não seja imortal, mas seja infinito enquanto durar. </p> <p class='text-xl'> Se ainda não me reconhece, <br/> Eu sou uma eterna apaixonada por palavras, músicas e pessoas inteiras. <br/> Em mim não há nada meu. <br/> Em mim, não vejo começo nem fim. <br/> Sou aquilo que ninguém vê. <br/> Uma coleção de histórias, estórias, memórias, dores, delícias, pecados, bondades, tragédias, sucessos, sentimentos e pensamentos. <br/> Acho que se definir é se limitar. <br/> Sou um eterno parênteses em aberto, <br/> enquanto minha eternidade durar. <br/> Não será muito, <br/> então vou aproveitar, <br/> melhor é ser. </p> <p class='text-xl'> Assim esta poesia dedico <br/> Ao verme que primeiro roeu as frias carnes do meu cadáver, dedico como saudosa lembrança estas memórias póstumas. </p>",
     },
     {
-      id: 22,
+      id: 26,
       title: "E agora, aparecido?",
       author: "Evelyn",
       description:
@@ -483,49 +526,6 @@ export default function App() {
         "curtia um samba, um blues<br>" +
         "bala perdida, caixão fechado<br>" +
         "falta de sorte é o que dizem alguns</p>",
-    },
-    {
-      id: 23,
-      title: "Norte Brasil, Brasil Norte",
-      author: "Samira",
-      description:
-        "<p class='text-xl'> Verde, amarelo e azul <br> Nesse Brasil jamais recuo <br> Tanto aqui para se ver <br> Que quem vê não vai esquecer, <br> Ah que norte mais bonito! <br> Quantos rios lindos. </p>" +
-        "<p class='text-xl'> Neles encontram muita fauna <br> Peixe-boi, tartaruga, boto cor-de-rosa <br> Se parar e olhar, é bem poderosa <br> Folclore diverso e diferente <br> Quem conhece é muita gente. </p>" +
-        "<p class='text-xl'> Lá no Norte tem muita festa também, <br> Como o Círio de Nazaré <br> E festa do Sairé. <br> Ouvi falar de dança? <br> Tem sim! As cirandas <br> Todo mundo dança <br> Adulto, idoso, jovem e criança. </p>" +
-        "<p class='text-xl'> Brasil incrível de viver <br> Tantas coisas para oferecer <br> Cuidado ao ir na floresta <br> Pode encontrar a boitatá </p>",
-    },
-    {
-      id: 24,
-      title: "Um norte tão cheio de vida, porém morto.",
-      author: "Cristiane",
-      description:
-        "<p class='text-xl'>Tão bela e plena,<br>Região diferente, cheia de cultura e gente, devia ser enaltecida,<br>Essa região que a natureza conserva,<br>Mas que horror, que injúria ao que meu povo e minha cultura foi submetida.</p>" +
-        "<p class='text-xl'>Tão grande e importante,<br>E mesmo assim desvalorizada,<br>Vítima de abuso constante,<br>Região tão sofrida e assim desmotivada.</p>" +
-        "<p class='text-xl'>Posso parecer hostil,<br>Mas é da paz que paira sobre mim é que fui ungida,<br>Região norte do Brasil,<br>Que pela cultura xenofóbica foi atingida.</p>" +
-        "<p class='text-xl'>Oh, floresta amazônica, tão viva e rica,<br>Mas também tão morta e sobrecarregada,<br>De incêndio em desmatamento de uma euforia és coberta,<br>Uma pena que não podes deixastes sedes retórica.</p>" +
-        "<p class='text-xl'>Se de tão repleta de vida foste declarada o pulmão do mundo,<br>Então por quê deixaste sedes explorada?<br>Né pergunto, boitatá, curupira, protetores da floresta, por que se escondem em um buraco tão fundo,<br>Se está morrendo a nossa floresta tão abençoada?</p>" +
-        "<p class='text-xl'>Tão grande e perfeita,<br>Tão linda e cheia de riqueza,<br>Mas tão ignorada por teu país,<br>Por que será que teu presidente não te quis?</p>" +
-        "<p class='text-xl'>De protetores da floresta a boto que é pai,<br>Teu folclore é repleto de peça,<br>Curupira, boitatá, boto-cor-de-rosa e muitas criaturas sensacionais,<br>Nessa nossa cultura que é grande a beça.</p>" +
-        "<p class='text-xl'>Aqui também existe religião bem divergentes,<br>Mas por quê o povo do teu país julga tanto a tua religião?<br>Se de cá me parece algo muito incompetente,<br>Já que a regra de qualquer religião é amar com o coração!</p>" +
-        "<p class='text-xl'>Do carimbó ao congo,<br>Do calypso ao marujada,<br>Se surpreenderá quando começarem a tocar o bongo,<br>E ainda mais surpresa terá quando meu povo começar a dança.</p>" +
-        "<p class='text-xl'>Satisfeito a nação que te enaltece,<br>E ao mesmo tempo ignora teu valor,<br>Como orgulho ao mundo te oferece,<br>Mas te maltrata, te nega amor.</p>" +
-        "<p class='text-xl'>Assim és tu, norte bravo, encantado,<br>Coração que pulsa em nosso Brasil,<br>Querido e sempre negligenciado,<br>Teu verde é esperança teu canto é bril.</p>",
-    },
-    {
-      id: 25,
-      title: "Casa queimada",
-      author: "Lara Sterzk",
-      description:
-        "<p class='text-xl'> Terra sagrada <br> Que estou a pisar <br> Mata divina, que está a queimar <br> Terra vazia que estão a matar <br> O templo dos povos, está a cair <br> A casa deles, está a sumir </p>" +
-        "<p class='text-xl'> É tirado o que a eles pertence <br> Lhes é tirado até o que pensem <br> Em fogo e chamas vão lhes calar <br> Nas cinzas esquecidas as memórias o vento irá levar <br> Para a escuridão suas histórias guardar </p>" +
-        "<p class='text-xl'> Frutos de uma cruel opressão <br> Vítimas de uma impiedosa execução <br> E sem as leis vão ter que lutar <br> Pois a justiça em suas tribos não vai chegar </p>",
-    },
-    {
-      id: 26,
-      title: "Momento Cultural I & II",
-      author: "Barba dos Bárbaros",
-      description:
-        "<p class='text-xl'><b class='underline'>PARTE 1 </b><br/> Temos dificuldade de provar <br/> Quem está certo ou errado <br/> O que há de errado em ficar <br/> Frente a frente? Lado a lado? <br/> Que demos as mãos para não ficarmos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Eu bato mesmo <br/> Bato todos em um liquidificador <br/> Puro suco de cabeça <br/> Essa mistura nos dá horror <br/> Se dermos as mãos, não ficaremos <br/> Uns nas mãos dos outros </p> <p class='text-xl'> Crença não se discute <br/> Não tem outro jeito <br/> Acabamos com a cidade <br/> Para acabar com o preconceito </p> <p class='text-xl'> O que seria de nós? <br/> Sem nossos pelos faciais? <br/> Como lutamos por igualdade? <br/> Se todos tivermos bigodes iguais? <br/> (Desiguais... desiguais... desiguais...)</p> <p class='text-xl'><b class='underline'>PARTE 2 </b><br/> Anjos e demônios disputam <br/> A nossa identidade <br/> Por uma melhor sociedade <br/> Para isso, nos amputam </p> <p class='text-xl'> Somos reféns do passado <br/> E, nele, construímos o futuro <br/> Somos muito imaturos <br/> E também somos vaporizados </p> <p class='text-xl'> Não se dirige mais a palavra <br/> Passaram por cima dela <br/> A discussão parou na pista <br/> Colidiram com a capela </p>",
     },
     {
       id: 27,

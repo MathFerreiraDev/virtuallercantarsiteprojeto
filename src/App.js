@@ -57,7 +57,7 @@ export default function App() {
     {
       id: 4,
       title: "<b>[19:33-19:36]</b> MOCHILEIROS - REGIÃO SUL",
-      description: "<p><b>Ato I:</b> Sam, Josh, Clarie e Luke, quatro turistas, acabam de chegar na pria de Recife, e acabam dialogando com José, um velho senhor que narra suas aventuras pelas regiões do Brasil, e contando um pouquinho de suas aventuras na <b>Região Sul</b>...</p>",
+      description: "<p><b>Ato I:</b> Sam, Josh, Clarie e Luke, quatro turistas, acabam de chegar na pria de Recife, e acabam dialogando com José, um velho senhor que narra suas aventuras de juventude pelas regiões do Brasil, e contando um pouquinho de suas aventuras na <b>Região Sul</b>, sobre quando participou da Oktoberfest e conheceu uma jovem chamada Bernadete...</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -71,7 +71,7 @@ export default function App() {
     {
       id: 6,
       title: "<b>[19:48-19:51]</b> MOCHILEIROS - REGIÃO SUDESTE",
-      description: "<p><b>Ato II:</b>Os novos turistas ficam passando a cuia de mão em mão, até que Luke avista uma juliete na barraca do senhor, e logo pergunta o que é. Isso já abre espaço para mais uma das aventuras de José, agora na <b>Região Sudeste</b>!</p>",
+      description: "<p><b>Ato II:</b> Durante suas aventuras de juventude, José também explorou a <b>Região Sudeste</b>, onde lá, conhece Waleska, uma moradora de uma comunidade local</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -85,7 +85,7 @@ export default function App() {
     {
       id: 8,
       title: "<b>[20:03-20:06]</b> MOCHILEIROS - REGIÃO CENTRO-OESTE",
-      description: "<p><b>Ato III:</b> Bla bla bla era assim assim assado.</p>",
+      description: "<p><b>Ato III:</b>O vivido senhor, agora conta um pouco sobre sua recaída, e como chegou na <b>Região Centro-Oeste</b>, onde foi até um bar para afogar suas mágoas, e que acaba por desabafar com o atendente do estabelecimento, Miguel</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -99,7 +99,7 @@ export default function App() {
     {
       id: 10,
       title: "<b>[20:18-20:21]</b> MOCHILEIROS - REGIÃO NORTE",
-      description: "<p><b>Ato IV:</b> Bla bla bla era assim assim assado.</p>",
+      description: "<p><b>Ato IV:</b> Após um período, ainda em sua juventude, José viaja até a <b>Região Norte</b> para acompanhar de pertinho o Festival de Parintins, onde acaba por conhecer Tamara e Alice, torcedoras de cada boi</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
@@ -113,7 +113,7 @@ export default function App() {
     {
       id: 12,
       title: "<b>[20:35-20:40]</b> MOCHILEIROS - REGIÃO NORDESTE",
-      description: "<p><b>Ato V:</b> Bla bla bla era assim assim assado.</p>",
+      description: "<p><b>Ato V:</b> Após tantas aventuras em sua vida, José conta a história por trás do relacionamento com sua esposa e o por quê te ter escolhido a <b>Região Nordeste</b> para viver o resto de seus dias</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },

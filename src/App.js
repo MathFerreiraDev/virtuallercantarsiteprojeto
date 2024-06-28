@@ -57,7 +57,7 @@ export default function App() {
     {
       id: 4,
       title: "<b>[19:33-19:36]</b> MOCHILEIROS - REGIÃO SUL",
-      description: "<p><b>Ato I:</b> Bla bla bla era assim assim assado.</p>",
+      description: "<p><b>Ato I:</b> Sam e Josh , dois turistas, acabam de chegar na pria de Recife, e acabam dialogando com José, um velho senhor que narra suas aventuras pelas regiões do Brasil, e contando um pouquinho de suas aventuras na região Sul...</p>",
       svgPath: "./backpack.svg",
       borderColor: "green-600",
     },
